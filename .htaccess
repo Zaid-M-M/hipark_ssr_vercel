@@ -1,0 +1,52 @@
+
+RewriteEngine On
+RewriteBase /
+
+
+
+
+RewriteRule ^sitemap\.xml$ sitemap.xml [L]
+
+# Security Headers
+<IfModule mod_headers.c>
+#Header set Content-Security-Policy "upgrade-insecure-requests"
+#Header set Content-Security-Policy "script-src 'unsafe-inline' https://www.googletagmanager.com *.gstatic.com *.jsdelivr.net *.firebaseapp.com *.firebase.com *.firebaseio.com *.vimeo.com *.google.com googletagmanager.com tagmanager.google.com phpstack-725513-2688800.cloudwaysapps.com; img-src: www.googletagmanager.com;"
+Header set X-Xss-Protection "1; mode=block"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set X-Content-Type-Options "nosniff"
+Header set Referrer-Policy "strict-origin-when-cross-origin"
+Header set Permissions-Policy "geolocation=self"
+Header edit Set-Cookie ^(.*)$ $1;HttpOnly;Secure
+Header always set Frame-Ancestors 'self'
+</IfModule>
+
+
+RewriteEngine On
+RewriteBase /
+
+
+RewriteRule ^(.*)?$ http://127.0.0.1:7175/$1 [P,L]
+RewriteRule ^sitemap\.txt$ build/client/sitemap.txt [L]
+RewriteCond %{HTTP_HOST} ^hiparks.com [NC]
+RewriteRule ^(.*)$ https://hiparks.com/$1 [L,R=301]
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+RewriteRule ^ - [L]
+RewriteRule ^ ./index.html
+
+
+
+ErrorDocument 403 /*
+
+
+
+SetEnvIf Origin ".+" CORS=$0
+Header always set Access-Control-Allow-Origin "%{CORS}e"
+Header always set Access-Control-Max-Age 1728000
+Header always set Access-Control-Allow-Methods: "GET,POST,OPTIONS"
+Header always set Access-Control-Allow-Headers: "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+Header always set Access-Control-Allow-Credentials true
+
+
+
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
