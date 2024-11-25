@@ -1,0 +1,95 @@
+.esg_overview_sec{
+    padding-top: 60px;
+
+}
+.esg_ovr_txt_animate {
+    height: 75px;
+    margin-bottom: 20px;
+}
+.hdg_esg{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 111%;    
+    text-transform: uppercase;
+    color: #313D47;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #2bb04c;
+}
+
+.esg_ovrview_img{
+    float: right;
+    margin-top: -10px;
+    width:84%;
+}
+.esg_overview_subpara{
+    margin-top:25px;
+    margin-bottom: 36px;
+    max-width: 89%;
+}
+
+p.para.esg_para_1 {
+    max-width: 89%;
+}
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .esg_overview_sec{
+        padding-top:60px;
+        padding-bottom: 0px;
+    }
+    .esg_over_col2 {
+        text-align: center;
+    }   
+    .hdg_esg{
+        font-weight: 600;
+        font-size: 14px;
+        padding-bottom: 16px;
+    }
+
+    .esg_para{
+        margin-top: 19px !important;
+    }
+  
+    .esg_para_1{
+        margin-top:10px !important;
+    }
+    
+    .esg_ovrview_img{
+        float: none;
+        margin-top:10px;
+        width:84%;
+    }
+    .esg_ovr_txt_animate {
+        height: 34px;
+    }
+
+}
+
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+    .esg_overview_sec {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    .esg_ovrview_img {
+        margin-top: 14px;
+        width: 66%;
+        margin-left: 100px;
+        float: none;
+    }
+
+    p.para.esg_para_1 {
+        line-height: 26px;
+    }
+
+    .esg_overview_subpara {
+       font-size: 21px;
+       line-height: 26px;
+    }
+}

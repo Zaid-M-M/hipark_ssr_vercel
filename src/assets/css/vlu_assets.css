@@ -1,0 +1,220 @@
+.assets_sec{
+    background-color: #EFEFEF;
+    padding: 60px 0px 60px 0px;
+}
+.assts_hd_row {
+    margin-bottom: 20px;
+}
+.assts_cnt_row {
+    margin-top:30px;
+}
+.value_assets_sub_hd{
+    color: #313D47;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #313d4766;
+}
+.ast_img {
+    margin: auto;
+    margin-top: 66px;
+    margin-left: 100px;
+    max-width: 87%;
+}
+.milion_hd{
+    color: #F47920;
+    /* margin-top: 17px;
+    margin-bottom: 20px; */
+}
+.vlu_assets_inner_box1 
+{
+    padding-top: 65px;
+}
+.vlu_assets_inner_box2 {
+    padding-top:44px;
+}
+.assets_subpoints{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    align-items: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #313D47;
+    /* margin-bottom: 10px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #313d4780; */
+
+}
+
+.assets_sec .add_border {
+    border-top: 1px solid #313d4766;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.assets_sec .value_assets_sub_hd {
+    padding-bottom: 0px;
+    border: none;
+}
+
+
+.assets_subpoints_sub_heading{
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35.52px;
+    text-transform: uppercase;
+    margin-bottom:0px;
+    color:#F47920;
+}
+
+/* Heading Text Animation */
+.vlu_sub_hd_animate {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    height: 63px;
+    width: 100%;
+  
+} 
+.vlu_sub_hd_animate p {
+    position: absolute;
+    transform: translate(0px, 100px);
+}
+
+#svg{
+    width:50%;
+}
+.ani{
+    stroke: black;
+    stroke-width: .2px;
+    fill-opacity: 0;
+}
+/* .svg_crl1 {
+    fill:"#BBBDBF";
+} */
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .assets_sec {
+        padding:40px 0 40px 0;
+    }
+    .ast_img {
+        width: 100%;
+        margin-top: -24px;
+        margin-left: 0px;
+    }
+
+    .assts_cnt_row {
+        display: flex;
+    }
+    .asst_col1 {
+        order:2;
+        margin-top: 30px;
+        width: 60.333333%;
+    }
+    .asst_col2 {
+        order:1;
+    }
+    .asst_col3 {
+        order:3;
+    }
+
+    .vlu_assets_inner_box1 {
+        padding-top: 0;
+    }
+    .vlu_assets_inner_box2 {
+        padding-top: 0;
+    }
+    .assets_subpoints_sub_heading {
+        font-size: 19px;
+        line-height: 13px;
+    }
+    .vlu_sub_hd_animate {
+        height: 40px;
+    }
+
+    .milion_hd{
+        font-size: 34px;
+        line-height: 21px !important;
+    } 
+    .assets_subpoints{
+        font-size: 13px;
+        line-height: 17.2px;
+    }
+
+}
+
+
+/*---------------------------------------------------------------- Snap Scroller CSS */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 768px) {
+
+
+    .assets_sec { 
+        padding: 40px 0px 40px 0px;
+    }
+
+    .asst_col2 {
+        text-align: center;
+    }
+
+    .ast_img {
+        margin: auto;
+        margin-top: 66px;
+        margin-left: 100px;
+        max-width: 87%;
+    }
+
+    .assts_hd_row {
+        margin-bottom: 0px;
+    }
+    .assts_cnt_row{
+        margin: 0px;
+    }
+}
+
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+    .assts_hd_row {
+        margin-bottom: 0;
+    }
+    .ast_img {
+        margin: auto;
+        margin-top: 75px;
+        margin-left: 40px;
+        max-width: 90%;
+    }
+    .assets_subpoints_sub_heading {
+        font-size: 26px;
+        line-height: 25px;
+    }
+    .vlu_sub_hd_animate {
+        height: 30px;
+    }
+    .vlu_assets_inner_box2 {
+        margin: 30px 0;
+    }
+    .vlu_assets_inner_box1 {
+        padding-top: 40px;
+    }
+
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+    .assets_subpoints_sub_heading{
+        font-size: 26px;
+    }
+    .assets_subpoints{
+        font-weight: 500;
+        font-size: 17px;
+    }
+    .ast_img {
+        margin: auto;
+        margin-top: 78px;
+        margin-left: 62px;
+        max-width: 87%;
+    }
+}

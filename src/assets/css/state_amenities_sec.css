@@ -1,0 +1,38 @@
+.amenities_sec {
+    padding-bottom: 40px;
+}
+.amenities_sec .sol_icon_col {
+    padding-left:13px;
+}
+.amenities_sec .sip_info_box h3 {
+    text-transform: unset;
+}
+.amenities_sec .sip_info_box {
+    padding-right: 0px;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.amenit_col12 {
+    margin: auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .amenities_sec .sol_icon_col {
+        padding-left: 20px;
+    }
+    .amenities_sec .sip_info_box h3 br {
+        display: none;
+    }
+    .amenities_sec .sip_info_box {
+        justify-content: left;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .amenities_sec .sol_icon_col {
+        padding-left: 20px;
+    }
+    .amenities_sec .sip_info_box {
+        justify-content: left;
+    }
+}

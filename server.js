@@ -1,0 +1,28 @@
+const express = require('express');
+const path = require('path');
+const app = express();
+const PORT = process.env.PORT || 8080;
+
+
+// Serve static files from the build/client directory
+app.use(express.static(path.join(__dirname, 'build/client')));
+
+// Serve the sitemap.xml file
+// app.get('/sitemap.xml', (req, res) => {
+//   res.set('Content-Type', 'application/xml');
+//   res.sendFile(path.join(__dirname, 'public', 'sitemap.xml'));
+// });
+
+// All other requests should be sent to the index.html
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build/client', 'index.html'));
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
+
+
+
+

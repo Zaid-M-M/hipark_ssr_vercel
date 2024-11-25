@@ -1,0 +1,366 @@
+
+.report_sec{
+    background-image:url('../img/report.jpg');
+    padding: 70px 0px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.report_sec_heading{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35.52px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+    width: fit-content;
+   
+}
+.report_sec_heading::after {
+    content: '';
+    position:absolute;
+    top: auto;
+    right: -50px;
+    bottom: -3px;
+    background-image:url('../img/svg/enq_sec_white_arrow.svg');
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-position: center;
+    width:40px;
+    height:40px;
+}
+
+.compliance_reports{
+    display: flex !important;
+    align-items: center !important;
+}
+.cta_btn{
+    background: #DDDDDD;
+    border-radius: 90px;
+    display: block;
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #313D47 !important;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 9px;
+    width: 180px;
+    transition: all 0.6s;
+    float: right;
+}
+.cta_btn span {
+    width: 0;
+    height: 100%;
+    background: #dddddd;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin-left: 0px;
+    display: flex;
+    transition: all 0.6s;
+    opacity:0;
+}
+.cta_btn span img {
+    width:10px;
+}
+.cta_btn:hover span{
+    margin-left: 20px;
+    opacity:1;
+} 
+.cta_btn:hover {
+    color: #313D47;
+    width:200px;
+}
+
+.report_btn{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #313D47;
+    max-width: 260px;
+    width: 100%;
+    min-height: 50px;
+    background-color: #DDDDDD;
+    border-radius: 98px;
+    border: none;
+    padding: 0px 18px 0px 25px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.report_control {
+    background-color: transparent !important;
+    height: 35px !important;
+}
+
+.report_control option{
+    color:#313D47;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.conversion_report input{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+    background: none !important;
+    border-radius: 0px;
+    border: none !important;
+    border-bottom: 1px solid #ffffff4d !important;
+    padding: 0px 0px 15px 0px;
+}
+
+.shape_icon{
+    float: right;
+    margin-top: -22px;
+}
+
+select#dprt_fld {
+    font-weight: 600;
+    line-height: 19px;
+    font-size: 16px;
+    background-image: url(../img/svg/shape.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+select#dprt_fld_rpt {
+    font-weight: 600;
+    line-height: 19px;
+    font-size: 16px;
+    background-image: url(../img/svg/shape.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+
+.dwn_rpt_frm input {
+    padding: 7px 0px 9px 0px;
+}
+
+input#otpInput.report_otp{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-transform: lowercase !important;
+    color: #313D47 !important;
+    max-width: 260px;
+    width: 100%;
+    min-height: 50px;
+    background-color: #DDDDDD !important;
+    border-radius: 98px;
+    border: none;
+     padding: 0px 18px 0px 18px;
+    display: flex;
+    text-align: center;
+        align-items: center;
+    text-decoration: none;
+}
+input#otpInput.report_otp::placeholder {
+    color: #99A3AD !important;
+    text-transform:lowercase !important;
+     text-align: center;
+   
+}
+
+.snd_otp.sending_otp{
+    color: #ffff;
+    top: 195px;
+    right: 246px;
+}
+.txt_crl {
+    color: #fff59d !important;
+}
+
+ /* .main_form label .name-label{
+    margin-bottom: 0px !important;
+    line-height: 20px;
+}  */
+
+
+.main_form label.form-label.conv_frm_label.name-label {
+    line-height: 0px;
+    margin-bottom: 0px;
+  
+}
+
+
+/* .main_form input.form-control.name-control {
+   color: #FFFFFF;
+  
+} */
+
+
+
+
+.main_form label.form-label.email-label {
+    line-height: 0px;
+    margin-bottom: 0px;
+
+}
+
+
+.report_form input:-webkit-autofill,
+.report_form input:-webkit-autofill:hover, 
+.report_form input:-webkit-autofill:focus,
+.report_form textarea:-webkit-autofill,
+.report_form textarea:-webkit-autofill:hover,
+.report_form textarea:-webkit-autofill:focus,
+.report_form select:-webkit-autofill,
+.report_form select:-webkit-autofill:hover,
+.report_form select:-webkit-autofill:focus {
+ 
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.report_dv {
+    display: none;
+}
+.rpt_msg {
+    color: #fff;
+    font-size:22px;
+}
+
+
+.report_btn.rpt_dwnld_button{
+    margin-bottom: 13px;
+    padding-top: 0 !important;
+    align-items: center;
+    width: auto;
+    max-width: 100%;   
+}
+
+
+.report_sec .conv_frm_spc {
+    position: relative;
+}
+.report_sec .snd_otp.sending_otp {
+    color: #ffff;
+    top: 37px;
+    right: 40px;
+}
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px)  {
+
+    .report_sec_heading{
+        font-size: 18px;
+        padding-right: 78px;
+        font-weight: 700;
+        line-height: 27px;
+        margin-bottom: 40px;
+    }
+    .report_sec_heading::after {
+        display: none;
+    }
+
+    .report_btn {
+        padding-left:43px;
+    }
+    .cta_btn{
+        width: 145px !important;
+        height: 45px;
+        margin-top: 10px;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 19.2px;
+    }
+    .report_sec{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    } 
+    .enq_col {
+        display: flex;
+    }
+
+    .report_sec .snd_otp.sending_otp {
+        color: #ffff;
+        top: 31px;
+        right: 0;
+    }
+
+}
+
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+    .report_sec_heading{
+        font-size: 24px;
+        padding-right: 0;
+        line-height: 31px;
+    }
+    .cta_btn{
+        width:170px !important;
+        height: 59px;
+        margin-top: 16px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.2px;
+    }
+    .report_sec{
+        padding-top: 44px;
+        padding-bottom: 41px;
+    }
+
+    .snd_otp.sending_otp {
+       
+        right: 33px;
+    }
+    .report_sec_heading::after {
+        right: 8px;
+        bottom: -9px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+
+    .report_sec_heading{
+        font-size: 28px;
+    }
+
+    .snd_otp.sending_otp {
+        right: 226px;
+    }
+
+    select#dprt_fld {
+        font-size: 14px;
+    }  
+}
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+
+    .snd_otp.sending_otp {
+        right: 264px;
+    }
+
+}
+
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+
+
+}

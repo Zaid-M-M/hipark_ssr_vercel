@@ -1,0 +1,60 @@
+.web_faq_sec {
+    padding-top: 260px;
+    padding-bottom: 100px;
+}
+.web_faq_sec .col_faq_1 {
+    margin-top:20px;
+}
+.web_faq_sec h2{
+    color:#313D47;
+    padding-bottom: 18px;
+    border-bottom: 1px dashed #2BB04C;
+}
+.web_faq_sec .accord_faq .btn.intg_btn.collapsed {
+    color: #313D47 !important;
+}
+.web_faq_sec .accord_faq a.btn.intg_btn:not(.collapsed) {
+    color: #F47920 !important;
+}
+.web_faq_sec .accord_para {
+    color:#313D47; 
+    font-size: 18px;
+    line-height: 31px;
+}
+.web_faq_sec .intg_card {
+    border-bottom: 1px solid #0000002b;
+    border-radius: 0px;
+}
+.web_faq_sec a.btn.intg_btn:not(.collapsed) .minus_icon {
+    color: #F47920;
+}
+.web_faq_sec #accordion_faq1 .card:last-child {
+    border-bottom: 0px;
+}
+.web_faq_sec .accord_faq .intg_btn {
+    font-size: 18px;
+}
+
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+    .web_faq_sec {
+        padding-top: 165px;
+        padding-bottom: 70px;
+    }
+  
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .web_faq_sec {
+        padding-top: 130px;
+        padding-bottom: 50px;
+    }
+    .web_faq_sec .accord_faq .intg_btn {
+        font-size: 16px;
+    }
+    .web_faq_sec .accord_para {
+        font-size: 16px;
+        line-height: 31px;
+    }
+}

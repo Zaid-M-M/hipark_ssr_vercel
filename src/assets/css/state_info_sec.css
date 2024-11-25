@@ -1,0 +1,53 @@
+.state_info_read_btn {
+    color: #313D47;
+}
+.state_info_read_btn:hover {
+    color: #F47920;
+}
+
+.prk_content_dv:hover{
+    height: 358px;
+}
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .state_info_sec {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .state_info_sec p.sub_para.ovrview_subpara {
+        margin-top: 10px;
+    }
+    .state_info_sec .agile_eco_col2 {
+        margin-top: 25px;
+    }
+    .state_info_sec .agile_eco_col1 {
+        padding-right: 15px;
+    }
+    
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    
+    .agile_eco_col1 {
+        padding-right: 30px;
+    }
+    .state_info_sec .agile_eco_col2 {
+        margin-top: 25px;
+    }
+    
+    .State_park_slider .prk_content_dv {
+        height: 430px !important;
+    }
+
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1024px) {
+
+    .State_park_slider .prk_content_dv {
+        height: 400px !important;
+    }
+}
+
+

@@ -1,0 +1,174 @@
+.wrk_sec{
+    padding: 110px 0px;
+    padding-bottom:0px;
+}
+.wrk_img_dv {
+    margin-top: -200px;
+}
+
+
+.wrk_sub_hd{
+    color: #313D47;
+    padding-bottom: 18px;
+    border-bottom: 1px dashed #2BB04C;
+}
+.wrk_img{
+    width:100%;
+}
+
+.wrk_content{
+    padding: 0px 40px ;    
+}
+
+.wrk_sld{
+    background-color:#ececece6 ;
+    border-right: 1px solid #313d471a;
+    height: 195px;
+    display: flex !important;
+    align-items: center !important;
+}
+.wrk_content img{
+    margin-top: 0px !important;
+    margin:auto;
+    margin-bottom: 10px;
+    
+   
+}
+.ws_1 {
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+.ws_10 {
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border-right: none;
+    
+}
+.wrk_sld p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #313D47;
+    margin-bottom:0px;
+}
+
+.slick-prev{
+    top: -25%;
+    left: 89% !important;
+}
+
+.slick-next{
+    top: -25%
+
+}
+.work_slider {
+    margin-top: 100px;
+}
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .wrk_sec {
+        padding: 60px 0px;
+        padding-bottom: 0;
+    }
+    .wrk_content {
+        padding: 0px 10px;
+    }
+    .wrk_content img {
+        width: 40%;
+    }
+    .wrk_sld p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .work_slider {
+        margin-top: 100px !important;
+    }
+    .work_slider .slick-prev {
+        right: 55px;
+        left: auto !important;
+        top: -31%;
+    }
+    .work_slider .slick-next {
+        right: 0px;
+        top: -31%;
+    }
+    .wrk_img_dv {
+        margin-top: -45px !important;
+    }  
+    .wrk_sld {
+        display: flex !important;
+        align-items: center !important;
+        height: 140px;
+    }
+    .wrk_sub_hd {
+        padding-bottom: 14px;
+    }
+}
+
+
+/*---------------------------------------------------------------- Snap Scroller CSS */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 768px) {
+
+    .wrk_sec {
+        padding: 50px 0 0 0;
+    }
+    .wrk_img_dv {
+        margin-top: -230px;
+    }
+}    
+
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+
+    .work_slider .slick-prev {
+        top: -25%;
+        left: auto !important;
+        right: 65px;
+    }
+    .work_slider .slick-next {
+        top: -25%;
+    }
+    .wrk_content img {
+        margin-top: 15px !important;
+        width: 80px;
+    }
+    .wrk_img_dv {
+        margin-top: -115px;
+    }
+    .wrk_content {
+        padding: 0px 20px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+    
+    .wrk_content img {
+        width: 55%;
+        margin-top:20px !important;
+    }
+    .wrk_content {
+        padding: 0px 20px;
+    }
+    .work_slider {
+        margin-top: 170px;
+    }
+    .wrk_sld {
+        height: 210px;
+    }
+    .wrk_img_dv {
+        margin-top: -155px;
+    }
+    .work_slider  .slick-prev {
+        right: 75px !important;
+        left: auto !important;
+    }
+}

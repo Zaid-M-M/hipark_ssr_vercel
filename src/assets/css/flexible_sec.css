@@ -1,0 +1,248 @@
+.flexible_sec {
+    background: #F47922;
+    padding: 80px 0 200px 326px;
+    overflow: hidden;
+}
+.flex_main_slider {
+    margin-top: 70px;
+}
+.flex_hd {
+    width: 100%;
+    max-width: 1230px;
+    border-color:#fff;
+}
+.flex_sld_outer {
+    height: 425px;
+    padding-right: 30px;
+}
+.flex_sld_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.flx_ovberlay {
+    position: absolute;
+    width: 100%;
+    height: 280px;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(25, 32, 37, 0.8) 12.9%, rgba(43, 43, 43, 0) 64.52%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.flex_content {
+    position: absolute;
+    top:auto;
+    bottom:20px;
+    padding:0 25px 0 25px;
+    z-index: 1;
+}
+.flex_bg_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.flex_sld_p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-bottom:0px;
+    padding-right: 100px;
+}
+
+.flex_main_slider.horz_sld .slick-prev , .flex_main_slider.horz_sld .slick-next {
+    top: auto;
+}
+.flex_main_slider.horz_sld .slick-prev {
+    bottom: -130px;
+    left: 0 !important;
+}
+.flex_main_slider.horz_sld .slick-next {
+    bottom: -130px;
+    left: 75px !important;
+}
+
+.flex_main_slider .slick-prev:before {
+    background-image:url('../img/svg/sldr_left_arrow_wht.svg') !important;
+}
+.flex_main_slider .slick-next:before {
+    background-image:url('../img/svg/sldr_right_arrow_wht.svg') !important;
+}
+
+@media only screen and (min-device-width: 1270px) and (max-device-width: 1280px) {
+    .flexible_sec {
+        padding-left:46px !important;
+        padding-top: 80px !important;
+    }
+    .flex_sld_p {
+        padding-right: 20px;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 1360px) and (max-device-width: 1369px) {
+    .flexible_sec {
+        padding-left:52px !important;
+        padding-top: 80px !important;
+    }
+    .flex_sld_p {
+        padding-right: 30px;
+    }
+
+ 
+}
+
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1440px) {
+    .flexible_sec {
+        padding-left:88px !important;
+        padding-top: 80px !important;
+    }
+    .flex_sld_p {
+        padding-right: 40px;
+    }
+
+}
+
+@media only screen and (min-device-width: 1580px) and (max-device-width: 1600px) {
+    .flexible_sec {
+        padding-left:168px;
+    }
+    .flex_sld_p {
+        padding-right: 50px;
+    }
+
+}
+
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1536px) { 
+    .flexible_sec {
+        padding-left:135px;
+    }
+    .flex_sld_p {
+        padding-right: 50px;
+    }
+
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1080px) {
+    
+    .flexible_sec {
+        padding: 80px 0 200px 35px;
+    }
+}
+
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .flexible_sec {
+        padding: 60px 20px 100px 20px;
+    }
+    .flexible_sec .animate_txt {
+        height: 70px;
+    }
+    .flex_hd {
+        line-height: 25px;
+    }
+    .flex_sld_p {
+        font-size: 16px;
+        line-height: 25px;
+        padding-right: 0px;
+    }
+    .flex_main_slider.horz_sld .slick-next {
+        bottom: -60px;
+        left: 55px !important;
+    }
+    .flex_main_slider.horz_sld .slick-prev {
+        bottom: -60px;
+        left: 0px !important;
+    }
+    .flex_main_slider {
+        margin-top: 35px;
+    }
+
+}
+
+
+/*---------------------------------------------------------------- Snap Scroller CSS */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 768px) {
+
+
+    .flexible_sec {
+        padding: 50px 0 120px 35px;
+    }
+    .flex_main_slider {
+        margin-top: 40px;
+    }
+    .flex_sld_outer {
+        height: 400px;
+    }
+    .flex_main_slider.horz_sld .slick-prev {
+        bottom: -70px;
+    }
+    .flex_main_slider.horz_sld .slick-next {
+        bottom: -70px; 
+    }
+
+}
+
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+    
+    .flex_sld_outer {
+        height: 320px;
+    }
+
+    .flexible_sec{
+        padding-left: 35px;
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    .flex_main_slider.horz_sld .slick-prev {
+        bottom: 40px !important;
+    }
+    .flex_main_slider.horz_sld .slick-next {
+        bottom: 40px !important;
+    }
+
+    .flex_sld_p {
+        font-size: 17px;
+        line-height: 23px;
+        padding-right: 0;
+    }
+    .flex_hd_col {
+        padding-right: 35px;
+    }
+    .flex_main_slider {
+        margin-top: 30px;
+    }
+     
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+
+    .flexible_sec {
+        padding: 80px 0 150px 35px;
+    }
+    .flex_content {
+        padding: 0 15px 0 15px;
+        width: 100%;
+    }
+    .flex_sld_p {
+        font-size: 19px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+    .flex_main_slider.horz_sld .slick-next {
+        bottom: -95px;
+    }
+    .flex_main_slider.horz_sld .slick-prev {
+        bottom: -95px;
+    }
+
+}

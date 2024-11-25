@@ -1,0 +1,180 @@
+/*------------------------- mob CSS */
+
+@media screen and (min-width:1025px) {
+
+    .mob_infra_sec {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+
+    .park_infra_sec {
+        display: none;
+    }
+
+    .mob_infra_sec {
+        background: #EFEFEF;
+        padding-top: 50px;
+        padding-bottom: 14px;
+    }
+
+    .tab-wrapper {
+        text-align: left;
+        display: block;
+        margin: auto;
+        max-width: 500px;
+    }
+        
+
+    .tabs {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+        
+
+    .tab-link {
+        list-style: none;
+        padding: 15px 15px;
+        cursor: pointer;
+        transition: all ease 0.5s;
+        border: 1px solid #eb7d2b;
+        border-radius: 50px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 17px;
+        letter-spacing: 0.08em;
+        color: #F47920;
+    }
+             
+    
+    .tab-link.active {
+        color: #ffffff;
+        border-color: #EE6534;
+        background-color: rgb(235, 125, 43);
+    }
+        
+
+    .content-wrapper {
+        padding: 40px 80px;
+    }
+        
+    .mob_infra_sec .tab-content {
+        display: none;
+        text-align: left;
+        color: #888;
+        font-weight: 300;
+        font-size: 15px;
+        opacity: 0;
+        transform: translateY(15px);
+        animation: fadeIn 0.5s ease 1 forwards;
+
+    }
+        
+    .tab-content.active {
+        display: block;
+    }
+
+
+    @keyframes fadeIn {
+        100% {
+            opacity: 1;
+            transform: none;
+        }
+            
+    }
+
+
+    .mob_infra_sec .accord_dv {
+        margin-top: 0px;
+    }
+    .mob_infra_sec .content-wrapper {
+        padding: 20px 20px;
+    }
+
+    .mob_infra_sec .accord_para {
+        color: #313d47;
+    }
+    
+    .mob_infra_sec .intg_btn {
+        color: #313d47;
+    }
+    .mob_infra_sec .intg_card_header {
+        padding: 10px 0px;
+    }
+    .sub-hdng {
+        padding: 20px 20px 40px 20px;
+    }
+
+    .mob_infra_sec .card {
+        border-radius: 0;
+        border-top: 1px solid rgb(49 61 71 / 20%);
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+    }
+    .mob_infra_sec .intg_btn {
+        font-size: 16px;
+    }
+    .mob_infra_sec .accord_para {
+        font-size: 16px;
+    }
+    .mob_infra_sec .card:first-child {
+        border-top: none;
+    }
+    .mob_infra_sec .accord_para {
+        margin: 0px 0 10px 0;
+    }
+
+    .mob_infra_sec .section_sub_heading {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+
+}
+	
+@media screen and (min-width:768px) and (max-width:1024px) {
+    #accordion {
+        width: 100%;
+    }
+    .mob_infra_sec {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .tabs {
+        gap: 20px;
+        justify-content: flex-start;
+    }
+    .tab-wrapper {
+        margin: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .mob_infra_sec .row{
+        margin:0px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+
+    .mob_infra_sec .sub-hdng {
+        padding-left:0px;
+    }
+    .mob_infra_sec .tab-wrapper {
+        padding-left:0px;
+    }
+    .mob_infra_sec .content-wrapper {
+        padding-left: 0px;
+    }
+}

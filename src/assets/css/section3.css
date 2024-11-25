@@ -1,0 +1,121 @@
+.elsc_section3 {
+    background: #F47920;
+    padding: 100px 0px 95px 0;
+}
+.elsc_client_dv {
+    text-align: center;
+}
+.elsc_client_logo_slider {
+    margin-top: 70px;
+}
+.elsc_client_logo_slider .swiper-slide  {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.elsc_client_logo_slider .swiper-button-next:after , .elsc_client_logo_slider .swiper-button-prev:after {
+    color: #fff;
+}
+
+.elsc_client_logo_slider .slick-list {
+    width: 88%;
+    float: left;
+}
+.elsc_client_logo_slider .elsc_client.sld img{
+    margin: auto;
+}
+
+.elsc_client_logo_slider button.slick-prev , .elsc_client_logo_slider button.slick-next {
+    width: 70px !important;
+    height: 70px !important;
+    border: none !important;
+    transform: translate(0, 0%) !important;
+    top:0 !important;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+}
+.elsc_client_logo_slider button.slick-prev:before , .elsc_client_logo_slider button.slick-next:before { 
+    background-size: 0%;
+}
+.elsc_client_logo_slider button.slick-prev {
+    position: relative;
+    left: auto !important;
+    float: left;
+    background-image: url('../img/svg/sldr_left_arrow_wht.svg');
+}
+
+.elsc_client_logo_slider button.slick-next {
+    position: relative;
+    left: auto !important;
+    float: left;
+    background-image: url('../img/svg/sldr_right_arrow_wht.svg');
+}
+.elsc_client_inner {
+    height: 90px;
+    display: flex;
+}
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+}
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+}
+
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+}
+
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1536px) {
+}
+
+@media only screen and (min-device-width: 1537px) and (max-device-width: 1600px) {
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+    .elsc_client_logo_slider .slick-list {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .elsc_client_logo_slider .slick-list {
+        width: 79%;
+    }
+    .elsc_client_logo_slider button.slick-prev, .elsc_client_logo_slider button.slick-next {
+        width: 70px !important;
+        height: 70px
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+
+    .elsc_section3 {
+        padding: 35px 0px 47px 0;
+    }
+    .elsc_client_logo_slider {
+        margin-top: 30px;
+    }
+    .elsc_client.sld img {
+        width: 65%;
+    } 
+    .elsc_client_logo_slider .swiper-button-next:after, .elsc_client_logo_slider .swiper-button-prev:after {
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .elsc_client_inner {
+        height: 70px;
+        display: flex;
+    }
+    .elsc_client_logo_slider .slick-list {
+        width: 70%;
+    }
+    .elsc_client_logo_slider button.slick-prev, .elsc_client_logo_slider button.slick-next {
+        width: 40px !important;
+        height: 40px
+    }
+
+}
+
+

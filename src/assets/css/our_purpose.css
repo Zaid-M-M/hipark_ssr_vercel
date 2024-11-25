@@ -1,0 +1,302 @@
+.purpose_sec {
+    background-color: #F47920;
+    width: 100%;
+    padding-bottom: 85px;
+    padding-top: 100px;
+    background-image:url('../img/our_purpose.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.purpos_anmt_txt {
+    display: flex;
+    justify-content: center;
+}
+.purpose_ttl {
+    font-size: 60px;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.purpose_ttl_1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 30px;
+
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.purpose_inside_sec {
+    background-color: #ececec;
+    height: 680px;
+    display: flex;
+    align-items: center;
+    padding: 0px 255px;
+    background-image:url('../img/our_mission.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+.purpose_head {
+    font-size: 60px;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 25%;
+    font-family: 'Barlow', sans-serif;
+}
+
+.purpose_title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.purpose_inside_sec1 {
+    background: #313D47;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    padding: 75px 240px;
+}
+
+.purpose_head1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #414042;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 80px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.purpose_title1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #D9D9D9;
+    text-align: center;
+    line-height: 30px;
+
+    font-family: 'Barlow', sans-serif;
+}
+
+.purpose_head2 {
+    color: #F47920;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Barlow';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.purpose_title2 {
+    text-align: center;
+    margin: 0;
+    color:#D9D9D9;
+}
+
+.prps_ttl , .mssion_ttl{
+    text-align: center;
+    color: #fff;
+}
+.prps_ttl{
+    margin-bottom: 18px;
+}
+.mssion_ttl{ 
+    margin-bottom: 37px;
+    color: #313D47;
+}
+.purpose_inside_sec p {
+    color: #313D47;
+    font-weight: 600;
+}
+.vlus_ttl {
+    margin-bottom: 30px;
+    color: #D9D9D9;
+}
+
+
+
+
+@media only screen and (min-device-width: 1270px) and (max-device-width: 1280px) {
+    .purpose_inside_sec {
+        padding: 0 100px;
+    }
+    .purpose_inside_sec1 {
+        padding: 0px 80px;
+    }
+    .ovrview_col {
+        padding-left: 12px;
+    }
+}
+
+@media only screen and (min-device-width: 1360px) and (max-device-width: 1369px) {
+    .purpose_inside_sec {
+        padding: 0 100px;
+    }
+    .purpose_inside_sec1 {
+        padding: 0px 80px;
+    }
+    .ovrview_col {
+        padding-left: 12px;
+    }
+}
+
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1440px) {
+    .purpose_inside_sec {
+        padding: 0 100px;
+    }
+    .purpose_inside_sec1 {
+        padding: 0px 80px;
+    }
+    .ovrview_col {
+        padding-left: 12px;
+    }
+}
+
+@media only screen and (min-device-width: 1580px) and (max-device-width: 1600px) {
+    .purpose_inside_sec {
+        padding: 0 100px;
+    }
+    .purpose_inside_sec1 {
+        padding: 0px 150px;
+    }
+    .ovrview_col {
+        padding-left: 12px;
+    }
+}
+
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1536px) { 
+    .purpose_inside_sec {
+        padding: 0 100px;
+    }
+    .purpose_inside_sec1 {
+        padding: 0px 150px;
+    }
+    .ovrview_col {
+        padding-left: 12px;
+    }
+}
+
+/*--------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .purpose_sec{
+        display: block;
+        max-width: 100%;
+        margin: auto;
+        padding:80px 20px   ;
+    }
+    .purpose_sec .row {
+        margin: 0;
+    }
+    .prps_ttl {
+        margin-bottom: 8px;
+    }
+
+    .mssion_ttl {
+        margin-bottom: 8px;
+        color: #313D47;
+    }
+
+    .purpose_title{
+        font-size: 14px;
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+
+    .purpose_ttl_1{
+        font-size: 14px;
+        line-height: 23px;
+        padding-left: 0px;
+    }
+
+    .purpose_inside_sec{
+        display: block;
+        padding: 0px 20px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 290px;
+    }
+
+    .purpose_inside_sec1{
+        display: block;
+        padding: 0px;
+        width: 100%;
+        padding:60px 20px;
+    }
+
+    .purpose_title1{
+        font-size: 14px;
+        line-height: 23px;
+        font-weight:500;
+    }
+
+    .purpose_title2.para {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .purpose_head2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+}
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+      
+    .purpose_sec {
+        padding-bottom: 45px;
+        padding-top: 60px;
+        background-position: bottom;
+    }
+    .purpose_ttl_1{
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size:17px;
+    }
+    .purpose_inside_sec{
+        padding: 0px 35px;
+        height: 480px;
+        background-size: cover;
+    }
+
+    .purpose_inside_sec1 {
+        padding:60px 120px;
+    }
+    .purpose_sec .row {
+        margin:0px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+
+    .purpose_inside_sec{
+        padding: 0px 10px;
+    }
+
+    .purpose_inside_sec1{
+        padding: 75px 25px;
+    }
+}

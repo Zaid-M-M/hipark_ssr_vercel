@@ -1,0 +1,400 @@
+.team_head {
+    margin-top: 94px;
+}
+
+.leadership_sec {
+    background-color:#FFFFFF;
+    padding-bottom: 65px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tm_card {
+    height: 398px;
+    width: 259px;
+    cursor: pointer;
+    border:none;
+}
+
+.tm_body {
+    border: 1px solid #DDDDDD !important;
+    border-top: none !important;
+}
+
+.leadership_ttl {
+    margin-top: 35px;
+}
+
+.leadership_ttl_1 {
+    color: #313D47;
+    margin-top: 38px;
+}
+.tm_name {
+    margin-top: 0;
+}
+.tm_content {
+    font-size: 24px;
+    font-weight: 600;
+    color: #313D47;
+    line-height: 26.64px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.tm_content_1 {
+    font-size: 16px;
+    font-weight: 400;
+    color:#F47920;
+    line-height: 19.2px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.lead_card {
+    margin-top: 84px;
+    margin-bottom: 48px;
+    width: fit-content;
+    margin-right: 17px;
+}
+
+.lead_card_2 {
+    margin-top: 10px;
+}
+
+.leader_img {
+    width: 100%;
+}
+.team_slidebox .row {
+    height:100%;
+}
+.team_slidebox .row .col-12{
+    height:100%;
+}
+.tm_cont_box {
+    height:100%;
+}
+.tm_cont_box .row{
+    margin:0;
+}
+.team_row_sec {
+    position: relative;
+}
+.team_slidebox {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 85%;
+    height: 100%;
+    background-color: #fff;
+    transform: translateX(100%);
+    transition: all 0.6s;
+    z-index: 99;
+    padding: 0px 0px 0 0px;
+}
+.close_tm_box {
+    position: absolute;
+    left:60px;
+    top:70px;
+    cursor: pointer;
+}
+.leader_overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(49, 61, 71, 0.8);
+    backdrop-filter: blur(4px);
+    z-index: 9;
+    display: none;
+}
+
+.rahul_cont {
+    display:none;
+}
+.narayn_cont {
+    display:none;
+}
+.mahendra_cont {
+    display:none;
+}
+.pooja_cont {
+    display:none;
+}
+.kunal_cont {
+    display:none;
+}
+.aviraj_cont {
+    display:none;
+}
+.taruna_cont {
+    display:none;
+}
+.swati_cont {
+    display:none;
+}
+
+.mitesh_cont{
+    display:none;
+}
+
+.tm_fullcontent_col {
+    background-color: #fff;
+    padding:120px 60px 0 60px;
+    height: 100%;
+}
+.tm_name_LB {
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 36px;
+    line-height:40px;
+    color: #313D47;
+}
+.tm_designation_LB {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #F47920;
+}
+.linkedin_box {
+    width:44px;
+    height:44px;
+    border-radius: 50px;
+    background: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.linkedin_box img {
+    width:18px;
+}
+.tm_full_img_col {
+    padding:0;
+    height:100%;
+}
+.tm_full_img_col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:top;
+}
+
+
+.tm_p_dv {
+    max-height: 300px;
+    height:100%;
+    overflow-y: auto;
+    margin-top: 30px;
+    padding-right: 30px;
+}
+.tm_p_dv p.para {
+    margin-top: 0;
+}
+/* width */
+  .tm_p_dv::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  .tm_p_dv::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+  }
+   
+  /* Handle */
+  .tm_p_dv::-webkit-scrollbar-thumb {
+    background: #F47920; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .tm_p_dv::-webkit-scrollbar-thumb:hover {
+    background-color: grey; 
+  }
+  
+@media  screen and (min-width: 1920px) {
+    .tm_p_dv {
+        max-height: none;
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+    }
+}
+
+
+@media only screen and (min-device-width: 1270px) and (max-device-width: 1280px) {
+
+}
+
+@media only screen and (min-device-width: 1360px) and (max-device-width: 1369px) {
+
+}
+
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1440px) {
+
+}
+
+@media only screen and (min-device-width: 1580px) and (max-device-width: 1600px) {
+
+}
+
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1536px) { 
+
+}
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) { 
+
+    .leadership_ttl {
+        margin-top: 15px;
+    }
+    .tm_p_dv {
+        max-height: 400px;
+        height: 100%;
+        overflow-y: auto;
+        margin-top: 15px;
+        padding-right: 15px;
+    }
+    .team_head {
+        margin-top: 60px;
+    }
+    .leadership_ttl_1 {
+        margin-top: 10px;
+    }
+    .lead_card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .janme_cont {
+        line-height: 22px !important;
+    }
+    .tm_content {
+        font-size: 20px;
+        line-height: 17px;
+    }
+    .tm_content_1 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .tm_card {
+        height: 365px;
+    }
+    .team_slidebox {
+        width: 100%;
+    }
+    .tm_fullcontent_col {
+        padding: 50px 20px 30px 20px;
+    }
+    .tm_name_LB {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .tm_designation_LB {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .close_tm_box {
+        top: 25px;
+        right: 25px;
+        left:auto;
+    }
+    .tm_full_img_col {
+        display: none
+    }
+    .tm_fullcontent_col p {
+        margin: 14px 0;
+    }
+    .tm_row1 {
+        justify-content: center;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+
+    .team_head {
+        margin-top: 60px;
+    }
+    .tm_content {
+        font-size: 19px;
+        line-height: 23.64px;
+    }
+    .tm_content_1 {
+        font-size: 14px;
+    }
+    .lead_card {
+        margin-top: 0;
+    }
+    .lead_card_2 {
+        margin-top: 0;
+    }
+    .tm_card {
+        height: 320px;
+        width: 195px;
+    }
+    .tm_row1 {
+        margin-top:50px;
+    }
+    .leadership_sec {
+        padding-bottom: 30px;
+    }
+    .tm_full_img_col {
+        display: none;
+    }
+    .team_slidebox {
+        width: 90%;
+    }
+    .tm_fullcontent_col {
+        padding: 100px 30px 0 30px;
+    }
+    .tm_name_LB {
+        font-size: 28px;
+    }
+    .close_tm_box {
+        left: 30px;
+        top: 50px;
+    }
+}
+
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+   
+    .team_head {
+        margin-top: 60px;
+    }
+    .tm_content {
+        font-size: 19px;
+        line-height: 23.64px;
+    }
+    .tm_content_1 {
+        font-size: 14px;
+    }
+    .lead_card {
+        margin-top: 0;
+    }
+    .lead_card_2 {
+        margin-top: 0;
+    }
+    .tm_card {
+        height: 320px;
+        width: 195px;
+    }
+    .tm_row1 {
+        margin-top:50px;
+    }
+    .leadership_sec {
+        padding-bottom: 30px;
+    }
+    .team_slidebox {
+        width: 95%;
+    }
+    .tm_fullcontent_col {
+        padding: 120px 40px 0 40px;
+    }
+    .close_tm_box {
+        left: 40px;
+    }
+}

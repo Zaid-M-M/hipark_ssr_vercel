@@ -1,0 +1,187 @@
+.search-bg {
+    /* background-color: #adadad; */
+    padding:300px 0 100px 0;
+}
+.result-error h2{
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Barlow';
+    font-weight: 500;
+    font-size: 30px;
+    height: 39px;
+    color: #06172F;
+    letter-spacing: -0.015em;
+}
+
+.srch-pg-rw {
+    padding-top: 70px;
+}
+
+.serch-result-dv .blog-inside-page img {
+    height: 250px;
+    width: auto;
+}
+.found-txt {
+    color:#313D47;
+    margin-bottom: 50px;
+}
+.found-txt span{
+    color: #eb7d2d;
+}
+.blg-srch-rsult .blog-inside-page:nth-child(even) {
+    background-color: #eb7d2d;
+    color: #fff !important;
+}
+.blg-srch-rsult .blog-inside-page:nth-child(even) .para {
+    color: #fff;
+}
+.blg-srch-rsult .blog-inside-page {
+    background-color: #fff;
+    padding: 30px;
+    text-decoration-color: #eb7d2d;
+    margin-bottom: 30px;
+    box-shadow: 0px 1px 8px 2px #00000024;
+}
+.blg-srch-rsult .blog-inside-page h1 {
+    color: #313D47;
+}
+.blg-srch-rsult .blog-inside-page:nth-child(even) h1,  .blg-srch-rsult .blog-inside-page:nth-child(even) a {
+    color: #fff !important;
+    font-family: 'Barlow';
+    text-decoration-color: #fff;
+}
+
+.blg-srch-rsult .blg-view-btn {
+    border: none;
+    font-family: 'Barlow';
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#313D47;
+    margin-top:25px;
+    display: block;
+}
+.blg-srch-rsult .blg-view-btn:hover {
+    text-decoration: underline;
+}
+
+.search_form2 {
+    position: relative;
+}
+.search_form2 .srch-input, .search_form2 .srch-input::placeholder{
+    /* color: #fff; */
+}
+.search_form2 .srch-btn{
+    right: 10px;
+    width: 16px;
+    top: 7px;
+}
+
+.srvc-resul-pg .blog-inside-page {
+    background-color: #06172f;
+    color: #fff !important;
+}
+.srvc-resul-pg .blog-inside-page h1 {
+    color: #fff;
+}
+
+.srvc-resul-pg .blog-inside-page:nth-child(even) {
+    background-color: #fff;
+    color:#06172f !important;
+}
+
+.srvc-resul-pg .blog-inside-page:nth-child(even) h1, .srvc-resul-pg .blog-inside-page:nth-child(even) a {
+    color:#06172f !important;
+    font-family: 'Barlow' !important;
+    text-decoration-color: #06172f !important;
+}
+
+.srvc-resul-pg .blog-inside-page a {
+font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    color: #fff;
+    padding-bottom: 6px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px ;
+    text-decoration-color: #fff !important;
+}
+
+.serch-result-dv p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-family: 'Barlow';
+}
+
+h3.found-txt {
+    padding: 40px 0px;
+    font-size: 40px;
+    color: #06172f;
+    font-family: 'Barlow';
+    font-weight: 500;
+}
+
+.blg-srch-rsult {
+    width: 100%;
+    margin: auto;
+}
+.srch_para {
+
+}
+
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .search-bg {
+        padding: 140px 0 40px 0;
+    }
+    .serch-result-dv  .row {
+        margin: auto;
+    }
+    .srch_col {
+        padding:0px 20px;
+    }
+    .blg-srch-rsult .blog-inside-page {
+        padding: 20px;
+    }
+    .blg-srch-rsult .blg-view-btn {
+        margin-top: -15px;
+        font-size: 12px;
+    }
+    .blg-srch-rsult .para {
+        margin-top: 10px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+    .search-bg {
+        padding: 140px 0 40px 0;
+    }
+    .serch-result-dv  .row {
+        margin: auto;
+    }
+    .srch_col {
+        padding:0px 35px;
+    }
+    .blg-srch-rsult .blog-inside-page {
+        padding: 20px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+
+    .search-bg {
+        padding: 200px 0 80px 0;
+    }
+
+}

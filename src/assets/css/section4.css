@@ -1,0 +1,115 @@
+.elsc_section4 {
+    padding: 106px 0 80px 0;
+}
+.inetg_sol_elsc_hd {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.sol_bx1 , .sol_bx2 , .sol_bx3{
+    border-right:1px solid #313D47;
+}
+.solutions_bx {
+    text-align: center;
+    height:396px;
+    display: flex;
+    align-items: center;
+    padding: 0 45px;
+}
+.solutions_bx_inner {
+
+}
+.solutions_bx img {
+    margin-bottom: 36px;
+}
+.solutions_bx h3 {
+    color: #313D47;
+    text-align: center;
+    font-family: 'Barlow';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.solutions_bx p {
+    color: #313D47;
+    font-weight: 300;
+}
+
+
+
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+}
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+}
+
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+}
+
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1536px) {
+}
+
+@media only screen and (min-device-width: 1537px) and (max-device-width: 1600px) {
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+
+    .solutions_bx {
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+
+    .sol_bx2 {
+        border-right:none;
+    }
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    .elsc_section4 {
+        padding: 60px 0px;
+    }
+    .inetg_sol_elsc_hd {
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+    .solutions_bx_inner {
+        display: flex;
+        align-items: flex-start;
+    }
+    .sol_bx1, .sol_bx2, .sol_bx3 {
+        border-right: 0px;
+        border-bottom: 1px solid #313D47;
+    }
+    .solutions_bx {
+        padding: 30px 12px 0 12px;
+        height: auto;
+    }
+    .solutions_bx h3 {
+        text-align: left; 
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .sbi_one {
+        text-align: left; 
+    }
+    .solutions_bx img {
+        margin-bottom: 0;
+        width: 60px;
+        margin-right: 23px;
+    }
+    .solutions_bx p {
+        margin-top: 15px;
+    }
+    .elsc_section4 .booksite_mob {
+        margin-top: 15px;
+        width: 300px;
+    }
+}
+
+

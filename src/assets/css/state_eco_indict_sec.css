@@ -1,0 +1,107 @@
+.eco_manufec_bg {
+    background: linear-gradient(180deg, rgba(243,121,32,1) 74%, rgba(255,255,255,1) 74%);
+}
+.eco_indict_sec {
+    padding:90px 0 67px 0;
+}
+.eco_manufec_bg .section_sub_heading{
+    padding-bottom: 18px;
+    border-bottom: 1px dashed #fff;
+    margin-bottom: 54px;
+}
+.indict_main {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 60px;
+}
+.indict_div {
+    width: 265px;
+}
+h3.indict_num {
+    color: #313D47;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Barlow';
+    line-height: 65px;
+}
+.indict_num sup {
+    font-size: 20px;
+    top: -33px;
+}
+p.indict_txt {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Barlow';
+    color: #fff;
+    line-height: 27px;
+    margin-top: 0px;
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    .eco_indict_sec {
+        padding: 50px 0 40px 0;
+    }
+    .eco_manufec_bg {
+        background: linear-gradient(180deg, rgba(243,121,32,1) 77%, rgba(255,255,255,1) 70%) !important;
+    }
+    .indict_main {
+        display: block;
+    }
+    .eco_manufec_bg .section_sub_heading {
+        margin-bottom: 30px;
+    }
+    h3.indict_num {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    p.indict_txt {
+        font-size: 15px;
+    }
+    .indict_main .indict_div {
+        margin-bottom: 25px;
+    }
+    .indict_num sup {
+        font-size: 13px;
+        top: -21px;
+    }
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+
+    .indict_main {
+        display: block;
+    }
+    .indict_main .indict_div {
+        width: 50%;
+        float: left;
+        margin-bottom: 30px;
+    }
+    h3.indict_num {
+        font-size: 55px;
+    }
+}
+
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+    .indict_main{
+        column-gap: 50px;
+    }
+}
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+}
+
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+}
+
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1536px) {
+}
+
+@media only screen and (min-device-width: 1537px) and (max-device-width: 1600px) {
+}

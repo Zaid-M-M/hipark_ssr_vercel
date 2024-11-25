@@ -1,0 +1,75 @@
+.client_1st_testi_sec {
+    background-color: #F47920;
+    padding: 79px 0 73px 0;
+}
+.client_1st_testi_sec .section_heading {
+    color: #FFF;
+    font-weight: 700;
+}
+.ct1_row {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 46px;
+}
+.cstm_spk_video {
+    width: 100%;
+}
+.ct1_col2_dv {
+    padding-left: 42px;
+    margin-top: -30px;
+}
+.ct1_col1_dv {
+    height:100%;
+}
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+}
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+}
+
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+}
+
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1536px) {
+}
+
+@media only screen and (min-device-width: 1537px) and (max-device-width: 1600px) {
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .ct1_col2_dv {
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .ct1_row {
+        padding-bottom: 0;
+        margin-top: 28px;
+    }
+    .ct1_col1_dv {
+        height: 400px;
+    }
+    
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    .client_1st_testi_sec {
+        padding: 50px 0 50px 0;
+    }
+    .ct1_row {
+        padding: 20px;
+        margin-top: 25px;
+    }
+    .ct1_col2_dv {
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    
+}
+

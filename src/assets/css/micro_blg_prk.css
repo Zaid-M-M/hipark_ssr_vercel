@@ -1,0 +1,94 @@
+.micro_blg_prk {
+    padding-top: 50px;
+}
+.micro_blg_prk .news_slider_sec {
+    padding-left:405px;
+}
+.micro_blg_prk .section_sub_heading {
+    margin-bottom: 40px !important;
+}
+
+@media only screen and (min-device-width: 1270px) and (max-device-width: 1280px) {
+    .micro_blg_prk .news_slider_sec {
+        padding-left:86px;
+    }
+
+}
+
+@media only screen and (min-device-width: 1360px) and (max-device-width: 1369px) {
+    .micro_blg_prk .news_slider_sec {
+        padding-left:130px !important;
+    }
+}
+
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1499px) {
+    .micro_blg_prk .news_slider_sec {
+        padding-left:165px !important;
+    }
+}
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1579px) { 
+    .micro_blg_prk .news_slider_sec {
+        padding-left:215x;
+    }
+
+}
+
+@media only screen and (min-device-width: 1580px) and (max-device-width: 1600px) {
+    .micro_blg_prk .news_slider_sec {
+        padding-left:240px;
+    }
+}
+
+
+
+@media only screen and (min-device-width: 1601px) and (max-device-width: 1650px) {
+    .micro_blg_prk .news_slider_sec {
+        padding-left:260px;
+    }
+}
+
+@media only screen and (min-device-width: 1651px) and (max-device-width: 1700px) {
+    .micro_blg_prk .news_slider_sec {       
+    padding-left: 316px;
+    }
+}
+
+@media only screen and (min-device-width: 1701px) and (max-device-width: 1750px) {
+    .micro_blg_prk .news_slider_sec {
+        padding-left: 341px;
+    
+    }
+}
+
+@media only screen and (min-device-width: 1751px) and (max-device-width: 1820px) {
+    .micro_blg_prk .news_slider_sec {
+        padding-left: 374px;
+    }
+}
+
+@media only screen and (min-device-width: 1821px) and (max-device-width: 1889px) {
+    .micro_blg_prk .news_slider_sec {
+        padding-left: 410px;
+    }
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1024px) { 
+    .micro_blg_prk .news_slider_sec {
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 991px) { 
+    .micro_blg_prk .news_slider_sec {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) { 
+    .micro_blg_prk .news_slider_sec {
+        padding-left: 0px;
+    }
+    .micro_blg_prk .section_sub_heading {
+        margin-bottom: 10px !important;
+    }
+}

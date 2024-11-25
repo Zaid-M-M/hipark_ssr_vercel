@@ -1,0 +1,196 @@
+.park_infra_sec {
+    background: #EFEFEF;
+    padding-top:100px;
+}
+.park_plan_img{
+    mix-blend-mode: darken;
+    width:100%;
+}
+.infra_tab {
+    margin-top:26px;
+    margin-bottom: -25px;
+}
+.infra_link {
+    color: #F47920 ;
+}
+
+.prk_exterior_col {
+    position:relative;
+}
+.hotspot_div {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+.hotspot_div:hover .hotspot_name{
+    background: #F47920;
+}
+.hotspot_circle {
+    width: 88px;
+    height: 88px;
+    border-radius: 50px;
+    background: rgba(221, 221, 221, 0.5);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orng_circle {
+    background: #F47920;
+    width:18px;
+    height:18px;
+    border-radius: 50px;
+}
+.hotspot_name {
+    position: absolute;
+    background: #9A9C9E;
+    border-radius: 6px;
+    padding: 5px 11px;
+    transition: all 0.5s;
+}
+.hotspot_name p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.hpt_content_dv {
+    padding:30px 40px;
+    background-color:#fff;
+    border-left: 3px solid #313D47;
+    position: absolute;
+}
+.hpt_cotent_hd{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #313D47;
+}
+.hpt_cotent_para {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #313D47;
+    margin-bottom:0px;
+}
+
+
+/*------------------------- Roof CSS */
+.roof_hotspot {
+    top: 11%;
+    left: 40%;
+}
+.roof_hpt_name{
+    top: 0px;
+    left: 16px;
+}
+.roof_content_dv {
+    top: 11%;
+    left: 0;
+    width: 455px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+}
+.roof_hotspot .hotspot_circle {
+    position: relative;
+} 
+.roof_hotspot .hotspot_circle::before {
+    content:'';
+    position: absolute;
+    background-color: #F47920;
+    height: 1.2px;
+    width: 0px;
+    right: 40px;
+    transition: width 0.5s;
+}
+.roof_hotspot:hover .hotspot_circle::before{
+    width: 425px;
+}
+.roof_hotspot:hover ~ .roof_content_dv {
+    visibility: visible;
+    opacity:1;
+}
+/*------------------------- Truck Apron CSS */
+.truck_hotspot {
+    top: auto;
+    bottom: 40%;
+    left: 32%;
+}
+.truck_hpt_name{
+    top: 21px;
+    left: 59px;
+    width: max-content;
+}
+.truck_content_dv {
+    top: auto;
+    left: 0;
+    bottom: 25.5%;
+    width: 360px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+}
+.truck_hotspot .hotspot_circle {
+    position: relative;
+} 
+.truck_hotspot .hotspot_circle::before {
+    content:'';
+    position: absolute;
+    background-color: #F47920;
+    height: 1.2px;
+    width: 0px;
+    right: 40px;
+    transition: width 0.5s;
+}
+.truck_hotspot:hover .hotspot_circle::before{
+    width: 225px;
+}
+.truck_hotspot:hover ~ .truck_content_dv {
+    visibility: visible;
+    opacity:1;
+}
+/*------------------------- Building Height CSS */
+.building_hght_hotspot {
+    top: auto;
+    bottom: 29%;
+    left: 54.5%;
+}
+.building_hght_hpt_name{
+    top: 21px;
+    left: 59px;
+}
+
+
+/*------------------------- Building Strcuture CSS */
+.building_strcut_hotspot {
+    top: auto;
+    bottom: 43%;
+    left: 68%;
+}
+.building_strcut_hpt_name{
+    top: 27px;
+    left: auto;
+    right: 61px;
+}
+
+/*------------------------- Office CSS */
+.office_hotspot {
+    top: auto;
+    bottom: 40%;
+    left: 85%;
+}
+.office_hpt_name{
+    top: 29px;
+    left: 60px;
+    width: max-content;
+}

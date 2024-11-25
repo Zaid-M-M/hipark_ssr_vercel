@@ -1,0 +1,189 @@
+.ambition_sec {
+
+}
+.ambition_col1 {
+    position: relative;
+    padding: 0;
+    background-image:url('../img/ambition_img.jpg');
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ambition_img {
+    width: 100%;
+
+}
+.ambition_arrow {
+    position: absolute;
+    top: auto;
+    right:75px;
+    bottom:0;
+    mix-blend-mode: color;
+    width:65%;
+}
+.ambition_col2 {
+    padding:90px 350px 75px 65px;
+    background: #313D47;
+}
+.ambition_hd {
+    padding-bottom: 18px;
+    border-bottom: 1px dashed #fff;
+}
+.ambition_col2 p {
+    color: #fff !important;
+    border-color:#DDDDDD;
+}
+.am_p1 {
+    padding-right:100px;
+}
+.ambition_p {
+    margin-top: 85px !important;
+}
+
+.moretext {
+    display: none;
+  }
+
+ .moreless_ttl{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #F47920;
+    text-decoration: none;
+}
+
+.ambition_read_btn{
+    color:#fff;
+}
+.ambition_read_btn:hover{
+    color:#F47920;
+}
+
+
+
+
+
+
+@media only screen and (min-device-width: 1270px) and (max-device-width: 1280px) {
+    .ambition_col2 {
+        padding-right: 120px;
+    }
+    .am_p1 {
+        padding-right: 55px;
+    }
+}
+
+@media only screen and (min-device-width: 1360px) and (max-device-width: 1369px) {
+    .ambition_col2 {
+        padding-right: 120px;
+    }
+    .am_p1 {
+        padding-right: 55px;
+    }
+}
+
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1440px) {
+
+    .ambition_col2 {
+        padding-right: 135px;
+    }
+    .am_p1 {
+        padding-right: 75px;
+    }
+    
+}
+
+@media only screen and (min-device-width: 1580px) and (max-device-width: 1600px) {
+    .ambition_col2 {
+        padding-right: 200px;
+    }
+    .am_p1 {
+        padding-right: 90px;
+    }
+}
+
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1536px) { 
+    .ambition_col2 {
+        padding-right: 150px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1080px) {
+    .ambition_col2 {
+        padding: 60px 50px 60px 50px !important;
+    }
+    .am_p1 {
+        padding-right: 0px;
+    }
+}
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .ambition_col1 {
+        display: none;
+    }
+    .ambition_p {
+        margin-top: 0 !important;
+    }
+    .ambition_col2 {
+        padding: 60px 20px 30px 20px;
+    }
+    .am_p1 {
+        padding-right:0px;
+    }
+}
+
+/*---------------------------------------------------------------- Snap Scroller CSS */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 768px) {
+
+    /* .ambition_col2 {
+        padding-top: 29px;
+        padding-bottom: 29px;
+    } */
+
+}
+
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+    .ambition_col2 {
+        padding-top:60px;
+        padding-bottom:60px;
+    }
+    .animate_txt {
+        height: 60px;
+    }
+
+    .ambition_col1 {
+        display: none;
+    }
+
+    .ambition_text_col {
+        padding-top: 40px;
+        padding-bottom: 252px;
+    }
+    .ambition_hd {
+        padding-bottom: 4px;
+    }
+
+
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+
+    .ambition_col2 .animate_txt {
+        height: 80px;
+    }
+    .ambition_hd {
+        padding-bottom: 12px;
+    }
+    .ambition_p {
+        margin-top: 100px !important;
+    }
+}

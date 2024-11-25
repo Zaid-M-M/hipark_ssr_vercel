@@ -1,0 +1,114 @@
+/*-------------------------------------------------------- Outer Tabs css  */
+
+.elsc_section2 {
+    background: #313D47;
+    padding: 121px 0 132px 0 ;
+}
+.elsc_sec2_tab1 {
+    margin-top: 75px;
+    margin-bottom: 70px;
+}
+.elsc_tab1_link {
+    background-color: transparent !important;
+    font-weight: 500;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    padding: 15px 21px;
+    margin-right: 16px;
+}
+.elsc_tab1_link.active , .elsc_tab1_link:hover{
+    border-color:#F47920 !important;
+}
+
+
+
+/*-------------------------------------------------------- Inner Tabs css  */
+.elsc_sec2_tab2 {
+    display: block;
+}
+a.elsc_tab2_link {
+    color: #fff !important;
+    font-family: 'Barlow';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+a.elsc_tab2_link.active {
+    color: #F47920 !important;
+    background-color: transparent !important;
+}
+
+
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+}
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+}
+
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+}
+
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1536px) {
+}
+
+@media only screen and (min-device-width: 1537px) and (max-device-width: 1600px) {
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+    .elsc_tab1_link {
+        width: 140px;
+    }
+    a.elsc_tab2_link {
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .elsc_section2 {
+        padding: 121px 0 80px 0;
+    }
+    .elsc_sec2_tab1 {
+        display: flex;
+    }
+    .elsc_sec2_tab2 {
+        display: flex;
+    }
+    .elsc_tab1_link {
+        width: 110px;
+        margin-right: 13px;
+        margin-bottom: 13px;
+        padding: 13px 0 !important;
+    }
+    .elsc_sec2_tab1 {
+        margin-top: 40px;
+        margin-bottom: 20px;    
+    }
+    a.elsc_tab2_link {
+        font-size: 17px;
+    }
+    .prk_img_popup {
+        width: 90% !important;
+        left: 5% !important;
+    }
+    .maximize_btn {
+        right: 27px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    .elsc_section2 {
+        display: none;
+    }
+}
+
+
+
+.tab-content>.tab-pane {
+    /* display: block; */
+}

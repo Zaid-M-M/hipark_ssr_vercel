@@ -1,0 +1,181 @@
+.agile_sec{
+    padding: 100px 0px 100px 0px;
+    background-color:#fff;
+}
+
+.agile_row {
+    display: flex;
+    align-items: center;
+}
+
+.agile_col_title{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26.64px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #F47920;
+    opacity: 0;
+}
+
+.col_row_2{
+    padding-top: 20px;
+}
+.agile_col2_img {
+    width: 100%;
+}
+.agile_col2_img img {
+    width: 91%;
+}
+.agile_col2 .agile_col_title {
+    margin-top: 27px;
+}
+.agile_col1 .agile_img{
+    margin: 44px 0px 40px 0px;
+    height: auto;
+}
+.agile_col2 .agile_img {
+    margin: 31px 0px 40px 0px;
+    object-fit: cover;
+    object-position: top;
+
+}
+.agile_img{
+    margin: 20px 0px 30px 0px;
+}
+.para_pd{
+    padding-right: 80px;
+}
+.btn_spc{
+    margin-top: 35px;
+}
+.gloabl_video {
+    width:91%;
+    height: 336px;
+    object-fit: cover;
+}
+
+:not(:root):fullscreen {
+    object-fit: contain !important;
+}
+
+.p_opacity {
+    opacity:0;
+}
+.mobile_btn {
+    display: none;
+}
+
+
+.agile_sec .add_border {
+    border-top: 1px dashed #2BB04C;  
+}
+
+.agile_sec .section_name {
+    border: none;
+    padding-bottom: 0;
+}
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .agile_sec {
+        overflow: hidden;
+        padding: 70px 0px 40px 0px;
+    }
+    .agile_row {
+        margin-top: 30px;
+    }
+    .agile_sec .agile_img {
+        width:100%;
+        margin: 5px 0 30px 0;
+    }   
+    .para_pd {
+        padding-right:0px;
+    }
+    .agile_col_title  {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .agile_col_title br {
+        display: none;
+    }
+    .desktop_btn{
+        margin-bottom: 30px !important;
+    }
+    /* .desktop_btn {
+        display: none;
+        
+    }
+    .mobile_btn {
+        display: block;
+    } */
+    .gloabl_video {
+        height:auto;
+    }
+    .agile_col2 .agile_img {
+        height: 200px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+    .agile_sec {
+        padding: 60px 0px 60px 0px;
+    }
+    .para_pd {
+        padding-right: 30px;
+    }
+
+    .agile_img {
+        margin: 20px 0px 30px 0px;
+    }
+    .agile_col_title {
+        font-size: 21px;
+    }
+    .gloabl_video {
+        height:auto;
+    }
+    .agile_col2 .agile_img {
+        height: 193px;
+    }
+    .agile_col1 .agile_img {
+        margin-bottom: 45px;
+    }
+    .agile_col2 .agile_img {
+        margin-bottom: 45px;
+        margin-top: 41px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+
+    .reveal_img {
+        width: 100%;
+    }
+    .agile_col_title {
+        font-size: 21px;
+        line-height: 26.64px;
+    }
+    .gloabl_video {
+        height:auto;
+    }
+    .agile_col2 .agile_img {
+        height: 255px;
+    }
+    .para_pd {
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+
+    .agile_col2 .agile_img {
+        margin-top: 22px;
+    }
+
+}

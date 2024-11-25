@@ -1,0 +1,784 @@
+.park_infra_sec {
+    background: #EFEFEF;
+    padding-top:100px;
+    overflow: hidden;
+}
+.park_plan_img{
+    mix-blend-mode: darken;
+    width:100%;
+}
+.prk_infra_content {
+    margin-top: 50px;
+}
+.infra_tab {
+    margin-top:26px;
+    margin-bottom: -25px;
+}
+.cstm_link.infra_link {
+    color: #F47920 ;
+}
+
+.prk_exterior_col {
+    position:relative;
+}
+.hotspot_div {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+.hotspot_div:hover .hotspot_name{
+    background: #F47920;
+}
+.hotspot_circle {
+    width: 88px;
+    height: 88px;
+    border-radius: 50px;
+    background: rgba(221, 221, 221, 0.5);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orng_circle {
+    background: #F47920;
+    width:18px;
+    height:18px;
+    border-radius: 50px;
+}
+.hotspot_name {
+    position: absolute;
+    background: #9A9C9E;
+    border-radius: 6px;
+    padding: 5px 11px;
+    transition: all 0.5s;
+}
+.hotspot_name p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.hpt_content_dv {
+    padding:30px 40px;
+    background-color:#fff;
+    border-left: 3px solid #313D47;
+    position: absolute;
+}
+.hpt_cotent_hd{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #313D47;
+}
+.hpt_cotent_para {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #313D47;
+    margin-bottom:0px;
+}
+div#prk_int {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/*------------------------- Roof CSS */
+.roof_hotspot {
+    top: 20%;
+    left: 40%;
+    z-index: 13;
+}
+.roof_hpt_name{
+    top: 0px;
+    left: 16px;
+}
+.roof_content_dv {
+    top: 20%;
+    left: 0;
+    width: 455px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+    z-index: 12;
+}
+.roof_hotspot .hotspot_circle {
+    position: relative;
+} 
+.roof_hotspot .hotspot_circle::before {
+    content:'';
+    position: absolute;
+    background-color: #F47920;
+    height: 1.2px;
+    width: 0px;
+    right: 40px;
+    transition: width 0.5s;
+}
+.roof_hotspot:hover .hotspot_circle::before{
+    width: 425px;
+}
+.roof_hotspot:hover ~ .roof_content_dv {
+    visibility: visible;
+    opacity:1;
+}
+/*------------------------- Truck Apron CSS */
+.truck_hotspot {
+    top: auto;
+    bottom: 37%;
+    right: 24%;
+    z-index:8;
+}
+.truck_hpt_name{
+    top: 21px;
+    left: 59px;
+    width: max-content;
+}
+.truck_content_dv {
+    top: auto;
+    left: 436px;
+    bottom: 30.5%;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+    z-index:7;
+}
+.truck_hotspot .hotspot_circle {
+    position: relative;
+} 
+.truck_hotspot .hotspot_circle::before {
+    content:'';
+    position: absolute;
+    background-color: #F47920;
+    height: 1.2px;
+    width: 0px;
+    right: 40px;
+    transition: width 0.5s;
+}
+.truck_hotspot:hover .hotspot_circle::before{
+    width: 250px;
+}
+.truck_hotspot:hover ~ .truck_content_dv {
+    visibility: visible;
+    opacity:1;
+}
+
+
+.section_sub_heading.ext{
+    color: #313D47;
+ }
+/*------------------------- Building Height CSS */
+.building_hght_hotspot {
+    top: auto;
+    bottom: 55%;
+    right: 93.5%;
+    z-index: 11;
+}
+.building_hght_hpt_name{
+    top: -20px;
+    left: 0px;
+}
+
+.building_hgt_content_dv {
+    top: auto;
+    left: 115px;
+    bottom: 48.5%;
+    width: 360px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+    z-index: 10;
+}
+
+
+.building_hght_hotspot:hover ~ .building_hgt_content_dv {
+    visibility: visible;
+    opacity:1;
+}
+
+.building_hght_hotspot .hotspot_circle::before {
+    content: '';
+    position: absolute;
+    background-color: #F47920;
+    height: 0.2px;
+    width: 0px;
+    left: 40px;
+    transition: width 0.5s;
+    
+}
+
+.building_hght_hotspot:hover .hotspot_circle::before{
+    width: 115px;
+}
+/*------------------------- Building Strcuture CSS */
+.building_strcut_hotspot {
+    top: auto;
+    bottom: 42%;
+    right: 77%;
+    z-index: 4;
+}
+.building_strcut_hpt_name{
+    top: -20px;
+    left: auto;
+    right: 0px;
+    width: 100%;
+}
+
+.building_struct_content_dv {
+    top: auto;
+    bottom: 31.5%;
+    width: 480px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+    z-index: 7;
+    right: 423px;
+}
+
+
+.building_strcut_hotspot:hover ~ .building_struct_content_dv {
+    visibility: visible;
+    opacity:1;
+}
+
+.building_strcut_hotspot .hotspot_circle::before {
+    content: '';
+    position: absolute;
+    background-color: #F47920;
+    height: 1.2px;
+    width: 0px;
+    left: 52px;
+    transition: width 0.5s;
+}
+
+.building_strcut_hotspot:hover .hotspot_circle::before{
+    width: 145px;
+}
+
+/*------------------------- Office CSS */
+.office_hotspot {
+    top: auto;
+    bottom: 33%;
+    right: 49%;
+    z-index: 6;
+    
+   
+}
+.office_hpt_name{
+    top: 29px;
+    left: 60px;
+    width: max-content;
+}
+
+.office_content_dv {
+    top: auto;
+    left: 175px;
+    bottom: 22.5%;
+    width: 360px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+    z-index: 5;
+}
+
+
+.office_hotspot:hover ~ .office_content_dv {
+    visibility: visible;
+    opacity:1;
+}
+
+.office_hotspot .hotspot_circle::before {
+    content: '';
+    position: absolute;
+    background-color: #F47920;
+    height: 1.2px;
+    width: 0px;
+    right: 40px;
+    transition: width 0.5s;
+    
+}
+
+.office_hotspot:hover .hotspot_circle::before{
+    width: 200px;
+}
+
+/*------------------------- Parking CSS */
+.prk_hotspot {
+   
+    top: auto;
+    bottom: 45%;
+    right: 5%;
+    z-index: 9;
+   
+}
+.prk_hpt_name{
+    top: -10px;
+    left: 5px;
+    width: max-content;
+}
+
+.prki_content_dv {
+    top: auto;
+    bottom: 30%;
+    right: 175px;
+    width: 360px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+    z-index: 8;
+    
+}
+
+
+.prk_hotspot:hover ~ .prki_content_dv{
+    visibility: visible;
+    opacity:1;
+}
+
+.prk_hotspot .hotspot_circle::before {
+    content: '';
+    position: absolute;
+    background-color: #F47920;
+    height: 1.2px;
+    width: 0px;
+    right: 40px;
+    transition: width 0.5s;
+    
+}
+
+.prk_hotspot:hover .hotspot_circle::before{
+    width: 225px;
+}
+
+
+
+/*------------------------- Security CSS */
+.secu_hotspot {
+    top: auto;
+    bottom: 61%;
+    left: 88%;
+    z-index: 9;
+    
+   
+}
+.secu_hpt_name{
+    top: -4px;
+    right: 5px;
+    width: max-content;
+}
+
+.secu_content_dv {
+    top: auto;
+    right: 186px;
+    bottom: 50.5%;
+    width: 360px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+    z-index: 8;
+    
+}
+
+
+.secu_hotspot:hover ~ .secu_content_dv{
+    visibility: visible;
+    opacity:1;
+}
+
+.secu_hotspot .hotspot_circle::before {
+    content: '';
+    position: absolute;
+    background-color: #F47920;
+    height: 0.2px;
+    width: 0px;
+    right: 40px;
+    transition: width 0.5s;
+    
+}
+
+.secu_hotspot:hover .hotspot_circle::before{
+    width: 250px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* =========================================Interior image css and style============================================================================================= */
+
+/*------------------------- Light CSS */
+.light_hotspot {
+    top: 10px;
+    left: 61%;
+}
+.light_hpt_name{
+    top: 21px;
+    left: 60px;
+}
+.light_content_dv {
+    top: 3%;
+    left: 23%;
+    width: 455px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+}
+.light_hotspot .hotspot_circle {
+    position: relative;
+} 
+.light_hotspot .hotspot_circle::before {
+    content:'';
+    position: absolute;
+    background-color: #F47920;
+    height: 1.2px;
+    width: 0px;
+    right: 40px;
+    transition: width 0.5s;
+}
+.light_hotspot:hover .hotspot_circle::before{
+    width: 225px;
+}
+.light_hotspot:hover ~ .light_content_dv {
+    visibility: visible;
+    opacity:1;
+}
+
+
+/*------------------------- wall CSS */
+.wall_hotspot {
+    top: auto;
+    bottom: 11%;
+    left: 29%;
+}
+.wall_hpt_name{
+    top: 30px;
+    left: 59px;
+    width: max-content;
+}
+.wall_content_dv {
+    top: auto;
+    left: 0;
+    bottom:0%;
+    width: 360px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+}
+.wall_hotspot .hotspot_circle {
+    position: relative;
+} 
+.wall_hotspot .hotspot_circle::before {
+    content:'';
+    position: absolute;
+    background-color: #F47920;
+    height: 0.2px;
+    width: 0px;
+    right: 40px;
+    transition: width 0.5s;
+}
+.wall_hotspot:hover .hotspot_circle::before{
+    width: 225px;
+}
+.wall_hotspot:hover ~ .wall_content_dv {
+    visibility: visible;
+    opacity:1;
+}
+
+
+
+/*------------------------- Floor CSS */
+.flr_hotspot {
+    top: auto;
+    bottom: 5%;
+    left: 45.5%;
+    z-index: 4;
+}
+.flr_hpt_name{
+    top: 30px;
+    left: 59px;
+}
+
+.flr_content_dv {
+    top: auto;
+    left: 175px;
+    bottom: 0%;
+    width: 360px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+    z-index: 3;
+}
+
+
+.flr_hotspot:hover ~ .flr_content_dv {
+    visibility: visible;
+    opacity:1;
+}
+
+.flr_hotspot .hotspot_circle::before {
+    content: '';
+    position: absolute;
+    background-color: #F47920;
+    height: 0.2px;
+    width: 0px;
+    right: 40px;
+    transition: width 0.5s;
+}
+
+.flr_hotspot:hover .hotspot_circle::before{
+    width: 125px;
+}
+
+/*------------------------- Fire CSS */
+.fire_hotspot {
+    top: auto;
+    bottom: 64%;
+    left: 6%;
+    z-index: 4;
+}
+.fire_hpt_name{
+    top: 27px;
+    left: auto;
+    right: 61px;
+}
+
+.fire_content_dv {
+    top: auto;
+    left: 16%;
+    bottom: 46.5%;
+    width: 360px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.6s;
+    transition-delay:0.2s;
+    z-index: 3;
+}
+
+
+.fire_hotspot:hover ~ .fire_content_dv {
+    visibility: visible;
+    opacity:1;
+}
+
+.fire_hotspot .hotspot_circle::before {
+    content: '';
+    position: absolute;
+    background-color: #F47920;
+    height: 1.2px;
+    width: 0px;
+    left: 40px;
+    transition: width 0.5s;
+}
+
+.fire_hotspot:hover .hotspot_circle::before{
+    width: 120px;
+}
+
+
+/*------------------------- VENTILATION CSS */
+.vent_hotspot {
+    top: auto;
+    bottom: 16%;
+    left: 68%;
+    z-index: 5;
+
+}
+.vent_hpt_name{
+    top: 29px;
+    left: 60px;
+    width: max-content;
+}
+
+.vent_content_dv {
+    top: auto;
+    right: 450px;
+    bottom: 0;
+    width: 360px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.6s;
+    transition-delay: 0.2s;
+    z-index: 4;
+    
+}
+
+
+.vent_hotspot:hover ~ .vent_content_dv {
+    visibility: visible;
+    opacity:1;
+}
+
+.vent_hotspot .hotspot_circle::before {
+    content: '';
+    position: absolute;
+    background-color: #F47920;
+    height: 1.2px;
+    width: 0px;
+    right: 40px;
+    transition: width 0.5s;
+    
+}
+
+.vent_hotspot:hover .hotspot_circle::before{
+    width: 225px;
+}
+
+
+/*------------------------- Dock AREA CSS */
+.dck_hotspot {
+    top: auto;
+    bottom: 12%;
+    right: 4px;
+    z-index: 6;
+}
+.dck_hpt_name{
+    top: -5px;
+    left: -3px;
+    width: max-content;
+}
+
+.dck_content_dv {
+    top: auto;
+    right: 135px;
+    bottom: 0%;
+    width: 360px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.6s;
+    transition-delay: 0.2s;
+    z-index: 5;
+}
+
+
+.dck_hotspot:hover ~ .dck_content_dv{
+    visibility: visible;
+    opacity:1;
+}
+
+.dck_hotspot .hotspot_circle::before {
+    content: '';
+    position: absolute;
+    background-color: #F47920;
+    height: 0.2px;
+    width: 0px;
+    right: 40px;
+    transition: width 0.5s;
+    
+}
+
+.dck_hotspot:hover .hotspot_circle::before{
+    width: 225px;
+}
+
+
+/*---------------------------------------------------------------- Snap Scroller CSS */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 768px) {
+
+    .park_infra_sec {
+        padding-top: 40px;
+    }
+    .infra_tab {
+        margin-top: 5px;
+        margin-bottom: -80px;
+    }
+    div#prk_int , #prk_ext{
+        margin-top: 120px;
+        margin-bottom: 60px;
+        /* transform: scale(0.8); */
+    }
+}
+
+@media only screen and (min-device-width: 1270px) and (max-device-width: 1280px) {
+
+     /* exterior    */
+    .building_strcut_hotspot:hover .hotspot_circle::before {
+        width: 100px;
+    }
+    .roof_hotspot:hover .hotspot_circle::before {
+        width: 400px;
+    }
+    .roof_content_dv {
+        top: 20%;
+    }
+    .truck_hotspot:hover .hotspot_circle::before {
+        width: 200px;
+    }
+    .truck_content_dv {
+        top: auto;
+        left: 412px;
+    }
+    .office_hotspot:hover .hotspot_circle::before {
+        width: 180px;
+    }
+    .office_content_dv {
+        top: auto;
+        left: 155px;
+    }   
+    .secu_content_dv {
+        bottom: 49.5%;
+    } 
+    .prki_content_dv {
+        bottom: 30%;
+    }
+    /* .hpt_content_dv{
+        bottom: 30%;
+    } */
+
+    /* interior */
+    .flr_hotspot:hover .hotspot_circle::before {
+        width: 90px;
+    }
+    .light_hotspot:hover .hotspot_circle::before {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-device-width: 1360px) and (max-device-width: 1369px) {
+    .secu_content_dv {
+        bottom: 49.5%;
+    } 
+    .prki_content_dv {
+        bottom: 30%;
+    }
+}
+
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1440px) {
+    .secu_content_dv {
+        bottom: 49.5%;
+    } 
+    .prki_content_dv {
+        bottom: 30%;
+    }
+}
+
+@media only screen and (min-device-width: 1580px) and (max-device-width: 1600px) {
+    .secu_content_dv {
+        bottom: 49.5%;
+    } 
+    .prki_content_dv {
+        bottom: 30%;
+    }
+}
+
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1536px) { 
+
+    .secu_content_dv {
+        bottom: 49.5%;
+    } 
+    .prki_content_dv {
+        bottom: 30%;
+    }
+}

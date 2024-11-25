@@ -1,0 +1,325 @@
+.other_park_sec {
+    padding:100px 0 100px 315px;
+    overflow: hidden;
+}
+.other_prk_hd {
+    margin-top: 30px;
+}
+.other_prk_hd {
+    width: 100%;
+    max-width: 1230px;
+}
+.other_park_col1 {
+    width: 100%;
+    float: left;
+    margin-top:35px;
+}
+.states_tab {
+    width: fit-content;
+    float: left;
+    padding: 22px 45px;
+    border: 1px solid #eb7d2b;
+    border-radius: 50px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.states_tab p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.08em;
+    color: #F47920;
+    margin-bottom:0px;
+}
+.delhi {
+    background-color: #F47920; 
+}
+.delhi p{
+    color:#fff;
+}
+.other_park_col2 {
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 462px;
+    margin-top: 55px;
+}
+#tab1 {
+    display: block;
+}
+.park_tab_content {
+    display: none;
+    width: 100%;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.park_main_slider.other_park_slider .slick-list {
+    padding:0!important;
+    margin-left: -30px;
+    margin-top:-30px;
+}
+.park_main_slider.other_park_slider .slick-slide {
+    opacity:1 !important;
+}
+.park_main_slider.other_park_slider .slick-slide > div {
+    margin-left: 30px;
+    margin-top:30px;
+}
+.other_park_slider .park_sld {
+    padding:0px !important;
+}
+.other_park_slider .slick-prev {
+    left: auto !important;
+    right: 365px;
+    top: -60px;
+}
+
+.other_park_slider .slick-next {
+    left: auto !important;
+    right: 290px !important;
+    top: -60px;
+}
+
+.ahmedabad_oth_slider 
+
+.ahmedabad_oth_slider .slick-track , .ahmedabad_oth_slider  .slick-track {
+    margin: 0;
+}
+.ahmedabad_oth_slider  .slick-slide.slick-active.slick-cloned  , .ahmedabad_oth_slider  .slick-slide.slick-active.slick-cloned {
+    display:none;
+}
+
+.oth_prk_mob_drop {
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 1270px) and (max-device-width: 1280px) {
+    .other_park_sec {
+        padding-left:30px;
+    }
+    .other_park_slider .slick-next {
+        right:40px !important;
+        top: -120px;
+    }
+    .other_park_slider .slick-prev {
+        right: 125px !important;
+        top: -120px;
+    }
+}
+
+@media only screen and (min-device-width: 1360px) and (max-device-width: 1369px) {
+    .other_park_sec {
+        padding-left:39px !important;
+        padding-top:100px !important;
+    }
+    .other_park_slider .slick-next {
+        right:100px !important;
+        top: -120px;
+    }
+    .other_park_slider .slick-prev {
+        right: 185px !important;
+        top: -120px;
+    }
+}
+
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1440px) {
+    .other_park_sec {
+        padding-left:75px !important;
+        padding-top:100px !important;
+    }
+    .other_park_slider .slick-next {
+        right:130px !important;
+        top: -120px;
+    }
+    .other_park_slider .slick-prev {
+        right: 215px !important;
+        top: -120px;
+    }
+}
+
+@media only screen and (min-device-width: 1580px) and (max-device-width: 1600px) {
+    .other_park_sec {
+        padding-left:155px;
+    }
+    .other_park_slider .slick-next {
+        right:180px !important;
+        top: -158px;
+    }
+    .other_park_slider .slick-prev {
+        right: 255px !important;
+        top: -158px;
+    }
+}
+
+
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1540px) {
+    .other_park_sec {
+        padding-left:123px;
+    }
+    .other_park_slider .slick-next {
+        right: 175px !important;
+        top: -158px;
+    }
+    .other_park_slider .slick-prev {
+        right: 250px;
+        top: -158px;
+    }
+}
+
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .other_park_sec {
+        padding: 60px 0 60px 10px;
+    }
+    .other_prk_hd {
+        margin-top: 15px;
+    }
+    .other_park_col1 .states_tab {
+        display: none;
+    }
+    .oth_prk_mob_drop {
+        display: block;
+        background-color: transparent;
+        border-color: #eb7d2b;
+        border-radius: 90px;
+        height: 45px;
+        font-family: 'Barlow';
+        font-weight: 600;
+        font-size: 15px;
+        display: flex;
+        letter-spacing: 0.08em;
+        color: #eb7d2b;
+        width: 80%;
+        padding-left: 20px;
+    }
+    .park_main_slider.other_park_slider .slick-slide > div {
+        margin-right: 25px;
+    }
+    .other_park_slider .slick-prev {
+        left: auto !important;
+        right: 80px !important;
+        top:auto;
+        bottom:-50px;
+    }
+    .other_park_slider .slick-next {
+        left: auto !important;
+        right: 25px !important;
+        top: auto;
+        bottom: -50px;
+    }
+    .other_park_col2 {
+        margin-top: 30px;
+    }
+    select#other_prk_dropdown:focus-visible {
+        outline-color: #eb7d2b ; 
+        outline-width:0px;
+        outline-style:solid;
+
+    }
+
+
+}
+
+
+/*---------------------------------------------------------------- Snap Scroller CSS */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 768px) {
+
+    .other_park_sec {
+        padding: 10px 0px 0px 35px;
+    }
+    .other_prk_hd {
+        margin-top: 15px;
+    }
+
+    .other_park_col1 {
+        margin-top: 15px;
+    }
+
+    .park_main_slider.other_park_slider .slick-list {
+        margin-top: -50px;
+    }
+
+    .prk_inner_content {
+        padding: 10px 20px 0px 20px;
+        height: 45.5%;
+    }
+
+
+}
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+    .other_park_sec {
+        padding: 60px 0 60px 25px;
+    }
+    .states_tab {
+        display: none;
+    }
+    .oth_prk_mob_drop {
+        display: block;
+        background-color: transparent;
+        border-color: #eb7d2b;
+        border-radius: 90px;
+        height: 45px;
+        font-family: 'Barlow';
+        font-weight: 600;
+        font-size: 15px;
+        display: flex;
+        letter-spacing: 0.08em;
+        color: #eb7d2b;
+        width: 40%;
+        padding-left: 20px;
+    }
+    select#other_prk_dropdown:focus-visible {
+        outline-color: #eb7d2b;
+        outline-width: 0px;
+        outline-style: solid;
+    }
+    .other_park_slider .slick-prev {
+        left: auto !important;
+        right: 100px;
+        top: -50px;
+    }
+    .other_park_slider .slick-next {
+        left: auto !important;
+        right: 35px !important;
+        top: -50px;
+    }
+
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+
+    .other_park_sec {
+        padding: 60px 0 60px 25px;
+    }
+    .states_tab {
+        padding: 15px 20px;
+    }
+    .other_park_slider .slick-prev {
+        left: auto !important;
+        right: 105px;
+        top: -45px;
+    }
+    .other_park_slider .slick-next {
+        left: auto !important;
+        right: 30px !important;
+        top: -45px;
+    }
+}

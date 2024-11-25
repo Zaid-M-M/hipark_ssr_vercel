@@ -1,0 +1,124 @@
+.state_slider_sec {
+    padding:100px 0 180px 0;
+}
+.state_slider_sec .news_slider_sec {
+    padding-bottom:0px;
+    padding-top: 60px;
+}
+.state_slider_sec .slick-list{
+    padding: 0px 13px !important;
+}
+.state_slider_sec .slick-track {
+    margin: 0px !important;
+}
+.st_sld {
+    padding-right: 44px;
+}
+.st_img_dv {
+    /* max-width:340px; */
+    width:100%;
+    background: #b5b5b5;
+    position: relative;
+}
+.st_img_dv img {
+    width:100%;
+}
+
+.st_name_dv {
+    position: absolute;
+    top: auto;
+    bottom: 18px;
+    border-top: 1px solid #fff;
+    width: 85%;
+    left: 26px;
+    text-align: center;
+    margin: auto;
+}
+.st_name_dv h3 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 3px;
+    font-family: 'Barlow';
+    text-transform: uppercase;
+}
+.state_slider_sec .slick-prev {
+    top: auto;
+    bottom: -115px;
+    left: 13px !important;
+}
+.state_slider_sec .slick-next {
+    top: auto;
+    left: 88px;
+    bottom: -115px;
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    .state_slider_sec {
+        padding: 50px 0 110px 0;
+        padding-right: 0px !important;
+    }
+    .state_slider_sec .cstm_container .row {
+        margin: 0px;
+    }
+    .state_slider_sec .news_slider_sec {
+        padding: 40px 0 0 0;
+        margin-left: -12px;
+    }
+    .st_sld {
+        padding-right: 25px;
+    }
+    .st_name_dv {
+        left: 15px;
+        bottom: 10px;
+    }
+    .st_name_dv h3 {
+        font-size: 20px;
+    }
+    .state_slider_sec .slick-prev {
+        bottom: -75px;
+    }
+    .state_slider_sec .slick-next {
+        bottom: -75px;
+        left: 69px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+
+    .state_slider_sec {
+        padding: 100px 0 150px 0;
+        padding-right:0px !important;
+    }
+    .state_slider_sec .row {
+        margin-right: 0px;
+    }
+    .state_slider_sec .news_slider_sec {
+        padding: 44px 0 0 0;
+        margin-left: -12px;
+    }
+    .st_name_dv {
+        left: 19px;
+    }
+    .st_name_dv h3 {
+        font-size: 23px;
+    }
+    .state_slider_sec .slick-prev , .state_slider_sec .slick-next{
+        bottom: -95px;
+    }
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+    .state_slider_sec .news_slider_sec {
+        padding-left: 19px;
+    }
+    .st_name_dv {
+        left: 17px;
+    }
+    .st_name_dv h3 {
+        font-size: 22px;
+    }
+}

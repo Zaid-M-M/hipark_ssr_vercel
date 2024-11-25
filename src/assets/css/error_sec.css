@@ -1,0 +1,67 @@
+.error_sec {
+    width:100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    padding-top: 150px;
+    background: #000;
+}
+.error_sec h1{
+    font-family: 'Barlow';
+    font-weight: 800;
+    font-size: 190.867px;
+    line-height: 138.6px;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    color: #F47920;
+    margin-bottom: 40px;
+}
+/* .error_sec h2 {
+    color: #313D47;
+} */
+.error_sec p {
+    margin-top: 10px;
+    color: #fff;
+}
+.goto_btn {
+    float: unset;
+    margin: auto;
+}
+
+
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .error_sec .row {
+        margin: 0;
+    }
+    .error_sec h1{
+        font-size: 90px;
+        margin-bottom: 0px;
+        line-height: 101px;
+    }
+    .goto_btn{
+        height: 40px;
+        width: 120px !important;
+        font-size: 10px;
+    }
+    .error_sec {
+        padding-top:0px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 1080px) {
+    .error_sec .row {
+        margin: 0;
+    }
+    .goto_btn{
+        height: 50px;
+        width: 170px !important;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1080px) {
+
+}

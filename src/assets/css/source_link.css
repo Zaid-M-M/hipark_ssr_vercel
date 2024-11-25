@@ -1,0 +1,52 @@
+/* Gloabl source Link CSS */
+.source_link {
+    color: #313D47;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0px;
+    word-break: break-all;
+}
+.source_link a {
+    font-weight: 400;
+    color: #313D47;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.source_link a:hover{
+    color:#F47922;
+    text-decoration: underline;
+}
+
+
+
+/* Landscape section source Link CSS */
+.lsnds_surce {
+    color: #fff;
+    margin-top: 20px;
+}
+.lsnds_surce a {
+    color: #fff ;
+}
+
+
+
+/* Manufacturing Slider section source Link CSS */
+.manuf_sourc {
+    margin-top: 25px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .manuf_sourc {
+        margin-right: 20px;
+        width: 500px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    .manuf_sourc {
+        margin-right: 20px;
+        width: 210px;
+    }
+
+}

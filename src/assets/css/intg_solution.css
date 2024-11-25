@@ -1,0 +1,371 @@
+_::-webkit-full-page-media,
+_:future,
+:root .chrome_integ_img {
+    display: none;
+}
+
+_::-webkit-full-page-media,
+_:future,
+:root .safari_integ_img {
+    display: block;
+}
+
+.chrome_integ_img {
+    display: block;
+}
+
+.safari_integ_img {
+    display: none;
+}
+
+.intg_solution_sec {
+    height: 950px;
+}
+
+.intg_solution_sec .row {
+    height: 100%;
+}
+
+#accordion {
+    width: 565px;
+    padding: 05px 0px 0px 0px
+}
+
+.txt_1 {
+    width: 890px;
+    overflow: hidden;
+}
+
+.ing_solu_col_1 {
+    background-color: #F47920;
+    position: relative;
+    padding: 85px 0px 95px 326px;
+}
+
+.ing_solu_col_2 {
+    padding: 0px 0px;
+    position: relative;
+    overflow: hidden;
+    background-color: #F47920;
+}
+
+.intq_img_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #F47920;
+    top: 0;
+    left: 0;
+    transform: translateX(0);
+    transition: all 0.5s ease-in;
+}
+
+.intg_card_body_desc {
+    padding-top: 1px;
+}
+
+.intg_sol_img {
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.intg_sol_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.assts_dev_img {
+    display: block;
+}
+
+.intg_arrow {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    right: 100px;
+    mix-blend-mode: color;
+}
+
+.intg_hd_dv {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.intg_hd_1 {
+    margin-left: 20px;
+    position: relative !important;
+    transform: translate(0px, 0px) !important;
+}
+
+.intg_hd_2 {
+
+    margin-left: 230px;
+    margin-top: -12px;
+    position: relative !important;
+    transform: translate(0px, 0px) !important;
+}
+
+.accord_dv {
+    margin-top: 278px;
+}
+
+.intg_card {
+    background: none;
+    border-top: 1px solid #ffffff26;
+    border-bottom: 1px solid #ffffff26;
+    border-right: none;
+    border-left: none;
+}
+
+.intg_btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.intg_btn {
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 18px;
+    position: relative;
+}
+
+.accord_para {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.intg_card_header {
+    background: none;
+    border: none;
+    padding: 15px 0 15px 0;
+}
+
+.img_deactive {
+    display: none;
+}
+
+a.btn.intg_btn.collapsed .plus_icon {
+    opacity: 1;
+}
+
+a.btn.intg_btn:not(.collapsed) .minus_icon {
+    opacity: 1;
+    color: #313D47;
+}
+
+a.btn.intg_btn:not(.collapsed) {
+    color: #313D47;
+}
+
+.plus_icon {
+    opacity: 0;
+}
+
+.minus_icon {
+    opacity: 0;
+}
+
+.accord_icon {
+    margin-right: 6px;
+    transition: all 0.6s;
+    position: absolute;
+    left: 0;
+    line-height: 17px;
+}
+
+
+
+@media only screen and (min-device-width: 1270px) and (max-device-width: 1280px) {
+    .ing_solu_col_1 {
+        padding-left: 46px;
+    }
+}
+
+@media only screen and (min-device-width: 1360px) and (max-device-width: 1399px) {
+    .ing_solu_col_1 {
+        padding-left: 53px;
+    }
+}
+
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1499px) {
+    .ing_solu_col_1 {
+        padding-left: 86px;
+    }
+}
+
+@media only screen and (min-device-width: 1580px) and (max-device-width: 1600px) {
+    .ing_solu_col_1 {
+        padding-left: 168px !important;
+    }
+}
+
+@media only screen and (min-device-width: 1600px) and (max-device-width: 1800px) {
+    .ing_solu_col_1 {
+        padding-left: 166px;
+    }
+}
+
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1579px) {
+    .ing_solu_col_1 {
+        padding-left: 136px !important;
+    }
+
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1080px) {
+
+    .ing_solu_col_1 {
+        padding: 85px 0px 95px 35px;
+    }
+}
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .intg_solution_sec {
+        height: auto;
+    }
+
+    .ing_solu_col_1 {
+        /* padding: 30px 20px 40px 20px; */
+        padding: 60px 20px 60px 20px;
+        overflow: hidden;
+    }
+
+    .intg_hd_1 {
+        margin-left: 0;
+    }
+
+    .intg_hd_2 {
+        margin-left: 0;
+        margin-top: 0px;
+    }
+
+    #accordion {
+        width: 100%;
+    }
+
+    .accord_dv {
+        margin-top: 110px;
+    }
+
+    .intg_btn {
+        font-size: 13px;
+    }
+
+    .iteg_btn {
+        margin-top: 40px;
+    }
+
+    .ing_solu_col_2 {
+        display: none;
+    }
+
+    .intg_card_header {
+        padding: 10px 0 10px 0;
+    }
+}
+
+
+/*---------------------------------------------------------------- Snap Scroller CSS */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 768px) {
+
+    .intg_hd_1,
+    .intg_hd_2 {
+        font-size: 100px;
+    }
+
+    .intg_solution_sec .ing_solu_col_1 .animate_big_txt {
+        height: 115px;
+    }
+
+    .intg_solution_sec .ing_solu_col_1 .accord_dv {
+        margin-top: 250px;
+    }
+
+    .intg_solution_sec {
+        height: auto;
+    }
+
+    .ing_solu_col_1 {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+    .ing_solu_col_2 {
+        display: none;
+    }
+
+    .ing_solu_col_1 {
+        padding: 50px 35px 70px 35px;
+    }
+
+    .txt_1 {
+        width: 100% !important;
+    }
+
+    .intg_hd_2 {
+        margin-left: 0;
+        margin-top: -5px;
+    }
+
+    .intg_hd_1 {
+        margin-left: 0;
+    }
+
+    .intg_solution_sec {
+        height: auto;
+    }
+
+    .animate_big_txt {
+        height: 90px;
+    }
+
+    .ing_solu_col_1 .accord_dv {
+        margin-top: 220px;
+    }
+
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1269px) {
+    .ing_solu_col_1 {
+        padding-left: 35px !important;
+    }
+    .intg_solution_sec  #accordion {
+        width: auto;
+    }
+
+}
+
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1359px) {
+
+    .ing_solu_col_1 {
+        padding-left: 35px !important;
+    }
+    .intg_solution_sec  #accordion {
+        width: auto;
+    }
+}

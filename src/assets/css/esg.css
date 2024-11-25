@@ -1,0 +1,118 @@
+.esg_sec {
+    padding:60px 0 20px 0;
+
+}
+
+.esg_row2 {
+    display: flex;
+    align-items: center;
+}
+
+.esg_sec_hd {
+    margin-top: -30px;
+}
+.esg_sub_para {
+    padding-right: 2px;
+}
+.esg_img_col {
+    overflow: hidden;
+    position: relative;
+}
+.esg_img{
+    margin-top: 0px;
+}
+.esg_img_bx{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    top: 0px;
+    z-index: 0;
+    transform: translateY(0%);
+    filter: blur(18px);
+
+}
+.esg_p1 {
+    margin-top: 155px;
+}
+
+.esg_sec hr {
+    border-bottom: 1px dashed #2BB04C;
+}
+
+.esg_sec .section_name {
+    border: none;
+    padding-bottom: 5px;
+}
+
+
+
+/*---------------ESG------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .esg_sec {
+        padding: 70px 0 20px 0;
+    }
+    .esg_img{
+        display: none;
+    }
+    .arrow_btn{
+        margin-top: 24px;
+        margin-bottom: 70px;  
+    }
+    .esg_sub_para  {
+        float: left;
+        margin-top:10px;
+    }
+    .esg_btn {
+        width: 63%;
+        margin-bottom: 50px;
+    }
+    .esg_btn::after {
+        top: 0px;
+    }
+    .esg_col1 {
+        margin-top: 20px;
+    }
+
+
+
+}
+
+/*---------------------------------------------------------------- Snap Scroller CSS */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 768px) {
+    
+    .esg_sec {
+        padding: 50px 0 0px 0;
+    }
+    .esg_row2 {
+        display: flex;
+        align-items: flex-start;
+    }
+    a.esg_btn {
+        margin-top: 0;
+    }
+    .esg_p1 {
+        margin-top: 140px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+    
+    .esg_sec {
+        padding: 60px 0 60px 0;
+    }
+    .esg_img_col {
+        display: none;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+    
+    .esg_img {
+        margin-top: -30px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,150 @@
+.agile_eco_sec {
+    background: #EFEFEF;
+    padding:88px 0 100px 0;
+}
+.agile_eco_col1 {
+    padding-right:95px;
+    padding-top: 12px;
+}
+.agile_eco_img {
+    margin-top:60px;
+    width:100%;
+}
+
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .agile_eco_sec{
+        padding-top: 70px ;
+        padding-bottom: 70px ;
+    }
+    .agile_eco_sec .ovrview_sub_hd {
+        padding-bottom: 10px;
+    }
+    .agile_eco_img {
+        margin-top: 15px;
+    }
+    .agile_eco_col1 {
+        padding-right:0px;
+        padding-top: 0px;
+    }
+    
+    .agile_eco_head{
+       margin:0px !important;
+       padding-top: 30px!important;
+    }
+    
+    .agile_eco_ttl{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .agile_overview_hd{
+        padding-bottom: 10px!important;
+    }
+
+
+    /*-------Solution-Vlu_integ_sec--------------------------------------------------------- Mobile CSS */
+
+    .solution_image{
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    .vlu_integ_sec {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    .vlu_integ_sec .animate_txt {
+        height: 54px;
+    }
+
+    .solution_paragrph{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+
+}
+
+
+/*---------------------------------------------------------------- Snap Scroller CSS */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 768px) {
+
+    .agile_eco_sec {
+       
+        padding: 44px 0 44px 0;
+    }
+     
+}
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+    .agile_eco_sec {
+        padding: 60px 0px 60px 0px;
+    }
+    .agile_eco_col1  .ovrview_subpara {
+        margin: 0px 0px 0px 0px;
+    }
+    .agile_eco_col2{
+        margin:auto;
+    }
+    .agile_eco_img {
+        margin-top: 20px;
+    }
+
+
+    /*--------------- Solution page css */
+    .vlu_integ_sec .row {
+        margin: 0;
+    }
+
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+    .agile_ttl{
+        font-size: 19px;
+        line-height: 28px;
+    }
+
+    .agile_ttl_1{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+     /*--------------- Solution page css */
+    .srvc_content h3 {
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .srvc_content {
+        bottom: -144px !important;
+    }
+    .licensing_content {
+        bottom: -143px !important;
+    }
+    .oprations_contnt {
+        bottom: -175px !important;
+    }
+
+    .vlue_dls_col1 {
+        width:60%;
+    }
+    .vlue_dls_col2 {
+        width:40%;
+    }
+    .vlue_dls_col1 {
+        padding: 100px 50px 50px 50px;
+    }
+    img.close_sld_box {
+        left: 40px;
+    }
+}
+
+

@@ -1,0 +1,23 @@
+.news_thumb_desc{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 17px;
+    color: #313D47;
+    line-height: 25px;
+}
+.media_sec .media_tab{
+    margin-top: 0;
+    display: flex;
+    margin-bottom: 0 !important;
+}
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+    .media_tab {
+        display: block;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .media_sec .media_tab .cstm_link {
+        margin-right: 17px;
+    }
+}

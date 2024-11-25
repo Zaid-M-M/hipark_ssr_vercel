@@ -1,0 +1,126 @@
+.press_rls_sec {
+    padding:80px 0px;
+    background: #eb7d2b;
+}
+.pr_container {
+    max-width: 1100px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+.pr_row {
+    background: #fff;
+    padding: 50px 50px;
+    margin:0px;
+}
+.pr_hd {
+    color: #313D47;
+    line-height: 40px;
+}
+.pr_img{
+    width:100%;
+    margin:25px 0px;
+}
+.pr_sub_para {
+    margin-bottom:0px;
+    margin-top: 0;
+}
+.media_dv {
+    margin-bottom: 20px;
+}
+.media_dv p {
+    margin: 0;
+}
+.pr_para {
+    margin-top: 0px;
+}
+.social_dv {
+    margin-bottom:10px;
+    margin-left: 20px;
+    text-align: center;
+}
+.social_sticky_dv {
+    position: sticky;
+    top:100px;
+}
+.pr_date {
+    margin:0px;
+    margin-bottom: 10px;
+}
+.media_hd{
+    color: #414042;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Barlow';
+}
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .press_rls_sec {
+        padding: 20px 0px;
+    }
+    .pr_container {
+        max-width: 320px;
+    }
+    .pr_row {
+        padding: 20px 20px;
+        padding-bottom: 0px;
+    }
+    .pr_hd {
+        line-height: 23px;
+    }
+    .social_dv {
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 5px;
+        text-align: center;
+        width: fit-content;
+        float: left;
+    }
+    .social_dv svg {
+        width:30px;
+    }
+    .media_hd{
+        font-size: 15px;
+    }
+    .social_col {
+        padding:0px;
+    }
+}
+
+/*---------------------------------------------------------------- tab1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 834px) {
+    .press_rls_sec {
+        padding: 60px 0px;
+    }
+    .pr_container {
+        max-width: 600px;
+    }
+    .pr_row {
+        padding:25px;
+    }
+    .media_hd{
+        font-size: 17px;
+    }
+
+}
+
+
+/*---------------------------------------------------------------- tab2 CSS */
+@media only screen and (min-device-width: 835px) and (max-device-width: 1080px) {
+    .press_rls_sec {
+        padding: 60px 0px;
+    }
+    .pr_container {
+        max-width: 800px;
+    }
+    /* .pr_row {
+        padding:25px;
+    }
+    .media_hd{
+        font-size: 17px;
+    } */
+
+
+}

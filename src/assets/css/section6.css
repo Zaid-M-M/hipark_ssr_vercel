@@ -1,0 +1,114 @@
+.elsc_section6 {
+    background: #F47920;
+    padding:107px 0 95px 0;
+}
+.sec6_heading {
+    color: #FFF;
+    font-family: 'Barlow';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+    padding-right: 100px;
+}
+
+.sec6_connect_frm_dv .conv_frm_spc {
+    padding-right: 70px;
+}
+
+.elsc_drodwn {
+    padding-bottom: 0px !important;
+}
+
+select.elsc_drodwn {
+    text-transform: inherit !important;
+    color: #ffffffb3 !important;
+}
+
+.checkbox {
+    appearance: auto !important;
+    flex-basis: 0;
+    margin-right: 10px;
+}
+
+.check_input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.chck_value {
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-bottom: 0px;
+}
+
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+}
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+}
+
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+}
+
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1536px) {
+}
+
+@media only screen and (min-device-width: 1537px) and (max-device-width: 1600px) {
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .sec6_heading {
+        font-size: 40px;
+        line-height: 50px;
+        padding-right:0px;
+    }
+    .sec6_connect_frm_dv .conv_frm_spc {
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    .elsc_section6 {
+        padding: 45px 0 40px 0;
+    }
+    .sec6_heading {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 45px;
+        padding-right: 0;
+        text-align: center;
+    }
+    .sec6_connect_frm_dv .conv_frm_spc {
+        padding-right: 0px;
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+    .sec6_connect_frm_dv .btn_col {
+        margin-top: -10px;
+    }
+
+    .elsc_section6 input#check_status {
+        margin-top: -30px;
+    }
+    .elsc_section6 .check_input {
+        margin-top: -21px;
+    }
+
+}
+
+

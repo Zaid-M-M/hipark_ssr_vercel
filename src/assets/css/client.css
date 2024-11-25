@@ -1,0 +1,285 @@
+.client_sec{
+    background-color: #F47920;
+    padding:80px 0px 90px 0px;
+    min-height:100vh;
+}
+.case_studies_client .client_sec {
+    background-color: #313D47;
+}
+.img_row_1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img_col1{
+    width:20%;
+    float:left;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.inside_col .img_col1{
+    margin-bottom: 50px;
+}
+
+.img_row_2{
+    width: 100%;
+    margin:120px 0px 0px 0px;
+    
+}
+
+.inside_col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.img_col2{
+    width:25%;
+    float:left;
+    text-align: center;
+}
+.cstm_link{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    margin-right:24px;
+    padding: 21px 21px !important;
+    border-radius: 98px !important;
+    background-color: #ffffff21 !important;
+    border: 1px solid #F47920 !important;
+}
+.cstm_link:hover  {
+    color: #FFFFFF !important;
+    border: 1px solid #fff !important;
+    background-color:#F47920 !important;
+
+}
+.case_studies_client .cstm_link:hover {
+    color: #FFFFFF !important;
+    border: 1px solid #fff !important;
+    background-color: #fff0 !important;
+}
+.cstm_link.active{
+    color: #FFFFFF;
+    border: 1px solid #fff !important;
+    background-color:#F47920 !important;
+}
+.case_studies_client .cstm_link {
+    border: 1px solid #4d565f !important;
+}
+.case_studies_client .cstm_link.active {
+    color: #FFFFFF;
+    border: 1px solid #fff !important;
+    background-color: #fff0 !important;
+}
+
+.cstm_client_tabs{
+    margin: 0px 0px 55px 0px;
+}
+.hdg_client{
+    margin: 0px 0px 22px 0px;
+    line-height: 110px;
+}
+.clnt_btn_spc{
+    text-align: center;
+    margin: auto;
+    margin-top: 110px;
+    padding:0px;
+}
+
+.fade {
+
+    -webkit-transition: opacity 0.4s linear;
+       -moz-transition: opacity 0.4s linear;
+        -ms-transition: opacity 0.4s linear;
+         -o-transition: opacity 0.4s linear;
+            transition: opacity 0.4s linear;
+}
+.client_mob_drop {
+    display: none;
+}
+
+.case_studies_client .non_charcol_img {
+    display: none;
+}
+.case_studies_client .charcol_img {
+    display: block;
+}
+
+.non_charcol_img {
+    display: block;
+}
+.charcol_img {
+    display: none;
+}
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .client_sec {
+        padding: 60px 0px 0px 0px;
+    }
+    .img_col1 img , .img_col2 img{
+        width: 100%;
+    }
+    
+    .img_col1 , .img_col2{
+        width: 40%;
+        margin-bottom: 40px;
+        margin-right: 2%;
+    }
+    .inside_col {
+        display: block;
+    }
+    #clint_tab .tab-pane {
+        padding:0px ;
+    }
+
+    .cstm_client_tabs {
+        display: none;
+    }
+
+    .img_row_1 {
+        justify-content: left;
+    }
+
+    /* Client Mobile dropdown CSS */
+    .client_mob_drop {
+        display: block;
+        background-color: transparent;
+        border-color: #fff;
+        border-radius: 90px;
+        height: 45px;
+        font-family: 'Barlow';
+        font-weight: 600;
+        font-size: 15px;
+        display: flex;
+        letter-spacing: 0.08em;
+        color: #FFFFFF;
+        width: 80%;
+        padding-left: 20px;
+    }
+    .client_mob_drop:focus-visible {
+        outline-color: transparent;
+        outline-width: 0;
+    }
+    .client_mob_drop option {
+        color: #313D47;
+    }
+
+    .img_col2.safe_express{
+        width: 56%;
+
+    }
+
+    .lumax_logo {
+        padding-left: 22px;
+    }
+
+    
+
+}
+
+
+/*---------------------------------------------------------------- Snap Scroller CSS */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 768px) {
+
+    .client_sec {
+     padding:43px 0px 43px 0px;
+   
+    }
+
+    .cstm_client_tabs {
+        margin: 0px 0px 23px 0px;
+    }
+
+}
+
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+    .client_sec {
+        padding: 60px 0px 0px 0px;
+    }
+    .img_col1 img , .img_col2 img{
+        width: 100%;
+    }
+
+    .img_col1 {
+        width: 20%;
+        margin-bottom: 40px;
+        margin-right: 5%;
+    }
+    .inside_col {
+        display: block;
+    }
+    #clint_tab .tab-pane {
+        padding:0px ;
+    }
+
+    .cstm_client_tabs {
+        display: none;
+    }
+    /* Client Mobile dropdown CSS */
+    .client_mob_drop {
+        display: block;
+        background-color: transparent;
+        border-color: #fff;
+        border-radius: 90px;
+        height: 45px;
+        font-family: 'Barlow';
+        font-weight: 600;
+        font-size: 15px;
+        display: flex;
+        letter-spacing: 0.08em;
+        color: #FFFFFF;
+        width: 80%;
+        padding-left: 20px;
+    }
+    .client_mob_drop option {
+        color: #313D47;
+    }
+
+
+    .client_page .client_sec {
+        min-height: auto;
+        padding-bottom: 60px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+    .clients_link{
+     margin-top: 20px;
+    }
+    .img_col1 img , .img_col2 img {
+        width: 85%;
+    }
+    .cstm_link {
+        font-size: 13px;
+        padding: 18px 18px !important;
+    }
+    .cstm_client_tabs {
+        margin: 0px 0px 15px 0px;
+    }
+    div#clint_tab {
+        margin-top: 30px !important;
+    }
+    .cstm_client_tabs li.nav-item {
+        margin-bottom: 15px;
+    }
+    .cstm_client_tabs li.nav-item a.nav-link  {
+        margin-top: 0px;
+    }
+ }

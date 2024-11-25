@@ -1,0 +1,197 @@
+.esg_env_sec.park_env_sec {
+    background-color: #313D47;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    background-image: none;
+}
+
+.esg_env_sec  .hdg_esg {
+    border-bottom: 0px;
+}
+
+.esg_env_sec .hdg_esg {
+    color: #fff;
+    padding-bottom: 0;
+}
+.esg_env_sec .sub_para {
+    margin: 0px;
+    color: #fff;
+}
+
+.esg_env_sec .add_border {
+    border-top: 1px dashed #fff;  
+}
+
+.park_env_sec .img-grid {
+    padding-top: 25px;
+    overflow: hidden;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+}  
+
+.img-clm {
+    overflow: hidden;
+}
+
+.park_env_sec .img-content {
+    font-family: Barlow;
+    text-align: left;
+    letter-spacing: 0em;
+    background-color: rgb(255 255 255 / 95%);
+    padding: 18px 50px 50px 50px;
+    transition: all .8s ease .2s;
+    height: 425px;
+}
+
+.park_env_sec .img-clm:hover .img-content {
+    padding-top: 50px;
+}
+
+.img-content h2 {    
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;  
+    transition: all .5s ease;
+}
+
+.park_env_sec .img-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+.img-clm:hover p, .img-clm:hover ul{
+    opacity: 1;
+}
+
+.img-content ul {
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.img-clm:hover .img-content {
+    transform: translateY(-74%);
+}
+.img-clm:hover h2 {
+    color: #2BB04C;
+}
+.guttr-spc {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 380px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+img.park-env-img {
+    width: 100%;
+    object-fit: cover;
+    height: 311px;
+}
+
+@media screen and (min-width:768px) {
+    img.toggl-icon {
+        display: none;
+    }
+}
+@media screen and (max-width:767px) {
+    .esg_env_sec {
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .img-grid {       
+        height: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;   
+    } 
+    
+    .img-clm {
+        margin-bottom: 25px;
+    }
+    .no-padding {
+        padding-top: 0px;
+    }
+    .guttr-spc {        
+        height: 370px;       
+        margin-bottom: 30px;
+    }
+    .img-content p {
+        margin-bottom: 10px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .img-content h2 {
+        margin-bottom: 25px;
+        display: inline-block;
+        width: 90%;
+        font-size: 19px;
+        line-height: 20px;
+    }
+    .img-content {        
+        padding: 15px 15px 10px 15px;
+    }
+    .img-content ul {       
+        font-size: 14px;
+        line-height: 20px;
+    }
+    img.toggl-icon {
+        transform: rotate(225deg);
+        width: 13px;
+        transition: transform .5s ease;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .img-content h2 {
+        font-size: 20px;
+    }
+    .esg_env_sec {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .img-grid {       
+        padding-left: 0px;
+        padding-right: 0px;  
+    } 
+    .img-content ul {
+        font-size: 14px;
+        line-height: 18px;
+    }    
+    .img-content p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .img-content p {
+        margin-bottom: 5px;
+    }
+    .img-clm:hover .img-content {
+        transform: translateY(-76%);
+    }
+    .guttr-spc {
+        margin-bottom: 30px;
+    }
+}
+
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+    .esg_env_sec.park_env_sec{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+

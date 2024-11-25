@@ -1,0 +1,140 @@
+.state_landscape_sec {
+    background-color: #313D47;
+}
+.state_landscape_sec .ovrview_col {
+    padding: 0px 100px 0px 13px;
+}
+.state_landscape_sec h2, .state_landscape_sec p {
+    color:#fff;
+}
+.state_landscape_sec .ovrview_div {
+    margin-top: 108px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px;
+}
+.state_landscape_sec .section_sub_heading {
+    margin-bottom: 45px;
+}
+.state_landscape_sec  .incen_ttl {
+    text-transform: uppercase;
+    color: #F47922;
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 27px;
+    border-bottom: 1px solid #231F1F;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.state_landscape_sec  .sector_list li {
+    margin-bottom: 14px;
+    font-family: 'Barlow';
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    list-style: none;
+    line-height: 26px;
+}
+.state_landscape_sec .sector_list li:last-child{
+    margin-bottom: 0;
+}
+.state_landscape_sec ul.sector_list {
+    padding-left: 33px;
+    margin-bottom: 0;
+}
+.state_landscape_sec  .sector_list li::before {
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 5px;
+    width: 18px;
+    height:18px;
+    background-image:url('../img/svg/check_mark.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* Maharashtra Page CSS */
+.specific_state_pg_landscpe .st_lands_col1{
+    width: 100%;
+}
+.specific_state_pg_landscpe .st_lands_col2{
+    width: 100%;
+}
+.specific_state_pg_landscpe ul.sector_list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+}
+.specific_state_pg_landscpe .ovrview_div {
+    margin-top: 30px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    
+    .state_landscape_sec .ovrview_col {
+        padding: 0px 13px 0px 13px;
+    }
+    .state_landscape_sec .section_sub_heading {
+        margin-bottom: 25px;
+        padding-bottom:11px !important;
+    }
+    .state_landscape_sec .ovrview_div {
+        margin-top: 0px;
+        padding: 25px 45px 25px 20px;
+    }
+
+    .state_landscape_sec .incen_ttl {
+        padding-bottom: 3px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .state_landscape_sec ul.sector_list {
+        padding-left: 25px;
+    }
+    .state_landscape_sec .sector_list li {
+        font-size: 16px;
+        margin-bottom: 9px;
+    }
+    .state_landscape_sec .sector_list li::before {
+        left: -23px;
+        top: 8px;
+        width: 15px;
+        height: 13px;
+    }
+
+    .specific_state_pg_landscpe ul.sector_list { 
+        display: block;
+    }
+
+}
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+
+    .state_landscape_sec .ovrview_col {
+        padding: 0px 50px 0px 13px;
+    }
+    .state_landscape_sec .ovrview_div {
+        margin-top: 30px;
+    }
+}
+
+
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+    .indict_main {
+        column-gap: 28px !important;
+    }
+    .indict_div {
+        width: 220px !important;
+    }
+    h3.indict_num {
+        font-size: 55px !important;
+    }
+    p.indict_txt {
+        font-size: 18px !important;
+    }
+}

@@ -1,0 +1,37 @@
+.disclaimer_sec {
+    padding-top: 260px;
+    padding-bottom: 100px;
+}
+.disclaimer_head{
+    /* text-align: center; 
+    width: fit-content; */
+    margin: auto;
+}
+
+.disclaimer_para{
+
+    padding-top: 10px;
+}
+
+
+.para_ttl{
+    margin-top:20px;
+}
+
+
+
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+    .disclaimer_sec {
+        padding-top: 165px;
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .disclaimer_sec {
+        padding-top: 130px;
+        padding-bottom: 50px;
+    }
+}

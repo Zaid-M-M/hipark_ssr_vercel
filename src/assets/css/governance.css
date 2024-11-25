@@ -1,0 +1,139 @@
+.esg_gv_sec {
+    /* height:100vh; */
+}
+.gvr_hdg{
+    border-bottom: 1px dashed #fff;
+    padding-bottom: 22px;
+}
+.gvr_para{
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+.gvr_col_1{
+    /* padding-right: 33px; */
+    padding: 90px 33px 107px 326px;
+}
+
+.gvr_accord{
+    font-weight: 500;
+}
+.gvr_li{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.gvr_list{
+    padding-left: 0px;
+}
+.gvr_card{
+    padding-left: 33px;
+}
+.fst_card{
+    border-top: none;
+}
+
+@media only screen and (min-device-width: 1270px) and (max-device-width: 1280px) {
+    .gvr_col_1 {
+        padding-left:45px;
+    }
+}
+
+@media only screen and (min-device-width: 1360px) and (max-device-width: 1369px) {
+    .gvr_col_1 {
+        padding-left:51px !important; 
+    }
+}
+
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1440px) {
+    .gvr_col_1 {
+        padding-left:86px !important;
+    }
+}
+
+@media only screen and (min-device-width: 1580px) and (max-device-width: 1600px) {
+    .gvr_col_1 {
+        padding-left:178px;
+    }
+}
+
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1536px) { 
+    .gvr_col_1 {
+        padding-left:130px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1080px) {
+
+    .gvr_col_1 {
+        padding: 90px 33px 107px 35px;
+    }
+}
+    
+
+/*--------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .gvr_col_1{
+        padding:30px 20px 60px 20px;
+    }
+
+    .gvr_hdg{
+        padding-bottom: 10px;
+    }
+    .gvr_para{
+        padding-left: 0px;
+        padding-top: 0;
+        margin-top: 20px;
+    }
+    .intg_btn{
+
+    }
+    .accord_para {
+        font-size: 14px;
+        line-height: 23px;
+        margin: 10px 0 10px 0;
+    }
+
+    .gvr_li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .gvr_card {
+        padding-left: 38px;
+    }
+}
+
+
+/*---------------------------------------------------------------- Snap Scroller CSS */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 768px) {
+
+    .gvr_col_1 {
+        padding:90px 33px 90px 48px;
+    }
+
+}
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+    .gvr_col_1 {
+        padding: 20px 33px 60px 35px;
+    }
+    .gvr_li {
+        font-size: 15px;
+    }
+    .gvr_hd_dv > div {
+        margin-bottom: 20px;
+    }
+    .accord_para {
+        font-size: 17px;
+    }
+    
+}

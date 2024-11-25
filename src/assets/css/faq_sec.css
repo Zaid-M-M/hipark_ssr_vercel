@@ -1,0 +1,71 @@
+.faq_sec {
+    background-color: #F47920;
+    padding: 90px 0px;
+}
+.faq_sec h2 {
+    padding-bottom: 18px;
+    border-bottom: 1px dashed #fff;
+    margin-bottom: 45px;
+}
+
+.col_faq_1 {
+    padding-right: 33px;
+}
+.col_faq_2 {
+    padding-left: 33px;
+}
+.accord_faq a{
+    color: #fff !important;
+}
+.accord_faq .btn.intg_btn.collapsed {
+    color: #FFFFFF !important;
+}
+.accord_faq .fst_card  .btn.intg_btn {
+    color: #FFFFFF !important;
+}
+.accord_faq a.btn.intg_btn:not(.collapsed) {
+    color: #313D47 !important;
+}
+.accord_faq .intg_btn {
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: none;
+}
+.accord_faq .accord_para {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;  
+    margin-top: -12px;
+    margin-bottom: 9px;
+}
+.accord_faq .card.intg_card:first-child {
+    border-top: 0px;
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 992px) {
+
+    .col_faq_2 {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    .faq_sec h2 {
+        margin-bottom: 25px;
+    }
+    .col_faq_1 {
+        padding-right: 10px;
+    }
+    .col_faq_2 {
+        padding-left: 10px;
+    }
+    .accord_faq .gvr_card {
+        padding-left: 19px;
+    }
+    .accord_faq .accord_para {
+        margin-top: -5px;
+    }
+}

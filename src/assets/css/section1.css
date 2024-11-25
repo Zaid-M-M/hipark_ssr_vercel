@@ -1,0 +1,241 @@
+/* ------------------ Header row CSS Start*/
+.elsc_section1 {
+  background-image: url("../img/elsc_landing_pg/section1/section1_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px 0 43px 0;
+}
+
+.elsc_section1 .booksite_dv {
+  float: right;
+  padding-top: 5px;
+  display: flex;
+}
+.elsc_section1 .booksite_dv_btn,
+.elsc_section4 .booksite_dv_btn {
+  border-radius: 16px;
+  background: #313d47;
+  padding: 16px 24px;
+  font-family: "Barlow";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+/* ------------------ Header row CSS End*/
+
+/* ------------------ Banner row CSS Start*/
+.elsc_section1 .banner_row {
+  padding-top: 160px;
+  margin-bottom: 70px;
+}
+.elsc_section1 .banner_content {
+  padding-right: 20px;
+  padding-top: 24px;
+}
+.elsc_section1 .banner_video {
+  height: 430px;
+}
+.elsc_section1 .banner_video video {
+  height: 100%;
+}
+.elsc_section1 .banner_content h1 {
+  color: #313d47;
+  font-family: "Barlow";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.elsc_section1 p.para {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.banner_video video {
+  margin-top: 20px;
+}
+/* ------------------ Banner row CSS End*/
+
+/* ------------------ Counter row CSS Start*/
+
+.counter_dv.cd1,
+.counter_dv.cd2,
+.counter_dv.cd3 {
+  border-right: 1px solid #5f5f5f91;
+}
+.elsc_section1 .counter_dv h3.cd_hd {
+  color: #f47920;
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 2px;
+  letter-spacing: 2px;
+}
+.elsc_section1 .counter_dv p.cd_p {
+  color: #313d47;
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+.cd1 h3,
+.cd2 h3 {
+  position: relative;
+}
+.cd1 h3::after,
+.cd2 h3::after {
+  content: "+";
+  display: none;
+}
+/* ------------------ Counter row CSS End*/
+
+.booksite_mob {
+  display: none;
+  width: 260px;
+  margin: auto;
+  text-align: center;
+}
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+}
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+}
+
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+}
+
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1536px) {
+}
+
+@media only screen and (min-device-width: 1537px) and (max-device-width: 1600px) {
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+  .elsc_section1 .banner_content h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .elsc_section1 .banner_row {
+    padding-top: 100px;
+  }
+  .elsc_section1 .banner_content h1 {
+    line-height: 55px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .elsc_section1 {
+    padding: 22px 0px 0px 0px !important;
+  }
+
+  /*--------------------------------------------- Header Row */
+  .header_row {
+    padding: 0 22px;
+  }
+  .hip_logo_div img {
+    width: 120px;
+  }
+
+  /*--------------------------------------------- Banner Row */
+  .elsc_section1 .booksite_dv {
+    display: none;
+  }
+  .elsc_section1 .banner_row {
+    padding-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+  }
+  .elsc_section1 .banner_video {
+    height: 244px;
+    text-align: center;
+  }
+  .banner_Col1 {
+    order: 2;
+    padding: 50px 35px 60px 35px;
+  }
+  .banner_Col2 {
+    order: 1;
+    padding: 0;
+  }
+  .banner_video video {
+    margin-top: 30px;
+  }
+  .elsc_section1 .banner_content {
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+  .elsc_section1 .banner_content h1 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 25px;
+  }
+  .banner_video video {
+    margin-top: 0;
+  }
+  .banner_video {
+    margin-top: 30px;
+  }
+
+  .booksite_mob {
+    display: block;
+  }
+
+  /*--------------------------------------------- Counter Row */
+  .counter_row {
+    background: #f47920;
+    padding: 17px 20px;
+  }
+  .counter_row .col-6 {
+    padding: 0;
+  }
+  .counter_dv {
+    display: flex;
+    height: 74px;
+    align-items: center;
+    justify-content: center;
+  }
+  .elsc_section1 .counter_dv h3.cd_hd {
+    color: #fff;
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .elsc_section1 .counter_dv p.cd_p {
+    color: #fff;
+    line-height: 18px;
+    font-size: 12px;
+    margin-left: 8px;
+    margin-top: 15px;
+  }
+  .counter_dv.cd2 {
+    border-right: 0px;
+  }
+  .counter_dv.cd1,
+  .counter_dv.cd3 {
+    border-right: 1px solid #fff;
+  }
+
+  .counter_dv.cd3,
+  .counter_dv.cd4 {
+    border-top: 1px solid #fff;
+  }
+
+  .elsc_section1 .banner_video {
+    margin-top: 22px;
+  }
+}

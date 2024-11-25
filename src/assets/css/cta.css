@@ -1,0 +1,134 @@
+.cta_sec{
+    background-color:#313D47;
+    padding: 100px 0px 80px 0px;
+    position: relative;
+}
+
+.cta_sec_heading{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35.52px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+    width: fit-content;
+}
+.cta_sec_heading::after {
+    content: '';
+    position:absolute;
+    top: auto;
+    right: -50px;
+    bottom: -3px;
+    background-image:url('../img/svg/enq_sec_white_arrow.svg');
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-position: center;
+    width:40px;
+    height:40px;
+}
+.cta_btn{
+    background: #DDDDDD;
+    border-radius: 90px;
+    display: block;
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #313D47 !important;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 9px;
+    width: 180px;
+    transition: all 0.6s;
+    float: right;
+}
+.cta_btn span {
+    width: 0;
+    height: 100%;
+    background: #dddddd;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin-left: 0px;
+    display: flex;
+    transition: all 0.6s;
+    opacity:0;
+}
+.cta_btn span img {
+    width:10px;
+}
+.cta_btn:hover span{
+    margin-left: 20px;
+    opacity:1;
+} 
+.cta_btn:hover {
+    color: #313D47;
+    width:200px;
+}
+
+
+/*---------------------------------------------------------------- Mobile CSS */
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px)  {
+
+    .cta_sec_heading{
+        font-size: 18px;
+        padding-right: 78px;
+        font-weight: 700;
+        line-height: 27px;
+    }
+    .cta_sec_heading::after {
+        display: none;
+    }
+    .cta_btn{
+        width: 145px !important;
+        height: 45px;
+        margin-top: 10px;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 19.2px;
+    }
+    .cta_sec{
+        padding-top: 44px;
+        padding-bottom: 41px;
+    }
+    .enq_col {
+        display: flex;
+    }
+}
+
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+    .cta_sec_heading{
+        font-size: 24px;
+        padding-right: 0;
+        line-height: 31px;
+    }
+    .cta_btn{
+        width:170px !important;
+        height: 59px;
+        margin-top: 16px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.2px;
+    }
+    .cta_sec{
+        padding-top: 44px;
+        padding-bottom: 41px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+
+    .cta_sec_heading{
+        font-size: 28px;
+    }
+}

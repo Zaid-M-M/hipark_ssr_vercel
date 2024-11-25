@@ -1,0 +1,460 @@
+
+.footer_sec{
+    padding: 71px 0px 20px 0px;
+    background-color: #EFF2F5;
+    position: relative;
+}
+.ftr_spc{
+    display: block;
+    text-decoration: none;
+    margin:19px 0px;
+}
+.ftr_sec{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.col_spc{
+    /* padding: 0px 65px 0px 0px; */
+}
+.cnt_para{
+    display: block;
+    margin:15px 0px;
+}
+.cnt_para:hover , .ftr_spc:hover {
+    color: #F47920;
+}
+.ftr-ttl{
+    font-weight: 500;
+}
+/* .cred_para{
+    display: block;
+
+} */
+
+.btm_para{
+    /* padding-left: 0px; */
+}
+
+.ftr_btn {
+    background: #F47920;
+    border-radius: 90px;
+    padding: 15px 30px;
+}
+
+.cstm_para {
+    font-size:16px;
+    margin: 0px 0px 0px 0px;
+}
+.ftr_span{
+    margin: 0px 10px 0px;
+    color: #313D47;
+}
+.trm_policy{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #313D47;
+    text-decoration: none;
+}
+.trm_policy:hover {
+    color:#F47920;
+}
+.prvcy {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.cnt_img {
+    padding: 20px 0px 0px 0px;
+}
+.cstm_frm {
+    
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-transform: lowercase;
+    color: #99A3AD;
+    max-width: 225px;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 98px;
+    border: none;
+    padding: 13px 0pc 17px 10px;
+    
+}
+
+.cstm_frm:focus{
+    box-shadow:none !important;
+}
+
+.dnld_btn{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 260px;
+    width: 100%;
+    min-height: 50px;
+    background-color: #F47920;
+    border-radius: 98px;
+    border: none;
+    padding: 0px 18px 0px 25px;
+    margin-bottom: 37px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.dnld_btn:hover {
+    color: #FFFFFF;
+}
+.isDisabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+.otp_error {
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+}
+.otp_msg {
+    font-family: 'barlow';
+    font-weight: 500;
+    font-size: 14px;
+    color: #2BB04C;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+}
+.otp_succ{
+    font-family: 'barlow';
+    font-weight: 500;
+    font-size: 14px;
+    color: #2BB04C;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+}
+.otp_err_Show {
+    display: block !important;
+    color: red !important;
+}
+.otp_from_msg {
+    font-size: 20px !important;
+}
+.error_msg_broch {
+    font-family: barlow;
+    font-weight: 400;
+    font-size: 14px;
+    color: red;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: none;
+}
+.otp_succ_Show {
+    display: block ;
+}
+.otp_msg_show {
+    display: block ;
+}
+.otp_radius {
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+}
+.otp_fld{
+    max-width: 125px;
+    margin-left: 1px;
+    border-radius: 98px;
+    border-top-left-radius: 98px !important;
+    border-bottom-left-radius: 98px !important;
+    padding: 13px 15px 17px 15px;
+
+}
+.frm_icn{
+    background-color: #fff;
+    border-radius: 98px;
+    border: none;
+    padding-left: 22px;
+    padding-right: 0px;
+
+}
+.mob_fld{
+    margin-right: 10px;
+    border-top-right-radius: 98px !important;
+    border-bottom-right-radius: 98px !important;
+    margin-left: 0px !important;
+    
+}
+.dnld_icon{
+    padding-left:10px;
+}
+.cstm_mail_mg{
+    margin-top:28px;
+    margin-bottom: 20px;
+}
+
+.cstm_ph_mg{
+    margin-top:20px;
+    margin-bottom: 20px !important;
+}
+.email_fld{
+    margin-left: 0px !important;
+
+}
+.snd_otp{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.08em;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+    color: #2BB04C;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 15px;
+    right: 150px;
+    z-index: 9;
+}
+.crd_row{
+    padding: 90px 0px 0px 0px;
+}
+
+.name-icon {
+    width: 14px;
+    filter: opacity(0.5);
+}
+
+.nam-mail-fld {
+    display: flex;
+    gap: 10px;
+}
+
+
+.footer_sec .para {
+    margin: 20px 0;
+}
+
+img.cnt_img.yt-icon {
+    margin-left: 15px;
+    height: 44px;
+    width: 24px;
+    filter: opacity(0.8);
+    margin-top: 5px;
+}
+.brdr_rd {
+    border-top-right-radius: 100px !important;
+    border-bottom-right-radius: 100px !important;
+}
+.otp_flds_error {
+    color: red !important;
+    width: 100%;
+    margin-bottom: 0 !important;
+    padding-left: 20px;
+    margin-top: 2px !important;
+}
+
+img.cnt_img.insta-icon {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+/*-----------FOOTER ----------------------------------------------------- Mobile CSS */
+
+@media only screen and (min-device-width: 440px) and (max-device-width: 600px) {
+    
+   
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .footer_sec{
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    
+    .footer_sec .btm_para  p{
+        margin: 0;
+    }
+    .footer_sec .section_name  {
+        font-size: 16px;
+        line-height: 23px;   
+    }    
+    .cnt_para {
+        margin: 30px 0px;
+    }
+    .ftr_sec_1{
+        margin-top: 30px;
+    }
+    .add_p {
+        margin: 25px 0px;
+    }
+    .ftr-ttl {
+        font-size: 16px;   
+    }
+    .email_fld{
+        height: 47px !important;
+    }
+    .mob_fld{
+        height: 50px !important;
+    }
+
+    .otp_fld{
+        width:100% !important;
+        height: 47px !important;
+        margin-top: 18px;
+        background-color: #32476D;
+        padding-left: 20px !important;
+        text-transform: inherit;
+    }
+    .otp_fld::placeholder{
+        color:#fff;
+    }
+
+    .dnld_btn{
+        max-width:100% !important;
+        height: 50px !important;
+        font-size: 14px;
+        justify-content: center;
+    }
+
+    .follow_ftr_sec{
+       /* text-align: center; */
+       font-size: 16px;
+       margin-top: 0;
+   }
+
+   .cstm_frm{
+        max-width: 100%;
+   }
+   .snd_otp{
+        right: 30px;
+   }
+   .cnt_img {
+        text-align: center;
+        padding-top: 0px;
+   }
+   .dwnld_txt {
+    margin-top: 10px;
+   }
+   .frm_icn {
+        padding-right: 10px;
+   }
+   .cstm_para{
+        font-size:  14px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 16.8px;
+   }
+
+   .trm_policy{
+        font-size: 14px;
+        text-align: center;
+   }
+   
+   .prvcy{
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+   .crd_row{
+        padding: 10px;
+    }
+   .footer_bottom .para  {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+}
+
+
+/*---------------------------------------------------------------- Tab Screen 1 CSS */
+@media only screen and (min-device-width: 601px) and (max-device-width: 991px) {
+
+    .footer_sec {
+        padding: 60px 0px 20px 0px;
+    }
+    .ftr-ttl {
+        font-size: 14px;
+    }
+    .footer_sec .para {
+        font-size: 14px;
+        margin: 15px 0;
+    }
+    .follow_ftr_sec {
+        margin-top: 25px;
+    }
+    .cnt_img {
+        padding-top:0px;
+    }
+    .frm_icn {
+        padding-left: 15px;
+    }
+    .trm_policy {
+        font-size: 14px;
+    }
+    .crd_row {
+        padding: 50px 0px 0px 0px;
+    }
+    #otp_form_bx .cstm_frm {
+        max-width: 238px;
+    }
+    #otp_form_bx .otp_div {
+        display: block;
+    }
+    #otp_form_bx .phon_icon {
+        width: fit-content;
+        height: 50px;
+        float: left;
+    }
+    #otp_form_bx .mob_fld {
+        width: 100%;
+    }
+    #otp_form_bx .snd_otp {
+        right: 30px;
+    }
+    #otp_form_bx .otp_fld {
+        width: 100%;
+        max-width: 270px;
+        margin-top: 15px;
+    }
+}
+
+/*---------------------------------------------------------------- Tab Screen 2 CSS */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1080px) {
+
+
+    #otp_form_bx .otp_div {
+        display: block;
+    }
+    #otp_form_bx .phon_icon {
+        width: fit-content;
+        height: 50px;
+        float: left;
+    }
+    #otp_form_bx .mob_fld {
+        width: 100%;
+    }
+    #otp_form_bx .snd_otp {
+        right: 55px;
+    }
+    #otp_form_bx .otp_fld {
+        width: 100%;
+        max-width: 255px;
+        margin-top: 15px;
+    }
+}
